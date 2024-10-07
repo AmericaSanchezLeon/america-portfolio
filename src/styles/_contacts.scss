@@ -1,0 +1,17 @@
+.contacts{
+    &__wrapper{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    &__link{
+        cursor:pointer;
+        &:hover{
+          color: $color-primary;
+          font-weight: 700; 
+        }
+    }
+ }

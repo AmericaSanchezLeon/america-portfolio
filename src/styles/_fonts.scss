@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+$font-header: 'Bricolage Grotesque', sans-serif;
+$font-body: 'Lato', sans-serif;
+
+h1, h2{
+    font-family: var(--font-header);
+    text-transform: uppercase;
+  }
+  
+  h3	{
+    font-family: var(--font-header);
+  }
+  
+  p	{
+    font-family: var(--font-body);
+  }
