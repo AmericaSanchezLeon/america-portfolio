@@ -1,7 +1,27 @@
-$color-primary:#FF2380; 
-$color-secondary: #A762FF;
-$color-contrast: #00FFF0;
-$color-dark: #303030;
-$color-light: #D9D9D9;
-$color-bg: #FEFEFE;
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$light: #CCC9C3;
+$lighter:#E7E3DC;
+$default: #2F2F2F;
+
+$yellow: #c07702;
+$orange: #CB5C47;
+$pink: #E04F88;
+$purple: #8558C8;
+
+$green: #86991C;
+$periwinkle: #5881CB;
+
+$primary:$purple;
+$secondary: $orange;
+$terciary: $pink;
+$accent: $blue;
+
+$theme-colors: (
+    "primary" : $primary,
+    "secondary": $secondary,
+    "dark": #2F2F2F, 
+    "light": #E7E3DC,
+    "text-bg-primary": $yellow
+)
 

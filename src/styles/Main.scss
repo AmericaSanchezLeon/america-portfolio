@@ -1,14 +1,23 @@
 @import 'fonts';
 @import 'colors';
 @import 'projects';
-@import 'intro';
+@import 'about';
 @import 'contacts';
+@import 'footer';
+@import 'navbar';
+@import 'stack';
+@import 'mixins';
+@import 'buttons';
+@import 'projectDetail';
 
-body{
+
+body {
     margin: 0 auto;
-    padding: 2rem;
-    background-color: $color-bg;
-    color: $color-dark;
+    color: default;
+    background-color: $lighter;
+
+    ::selection {
+        background-color: $pink;
+        color: $light;
     }
-  
-      
+}

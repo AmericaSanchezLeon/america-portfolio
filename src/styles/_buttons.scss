@@ -1,0 +1,10 @@
+.btn-themed{
+font-family: $font-body !important;
+font-weight: 500;
+}
+
+.btn-themed-primary{
+    @extend .btn-themed;
+    border: 0.3rem solid $primary;
+     
+}

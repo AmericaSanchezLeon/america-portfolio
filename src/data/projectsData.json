@@ -1,20 +1,113 @@
 [
-    {
-      "id": 1,
-      "name": "Project 1",
-      "description": "This is the first project",
-      "link": "https://www.example.com/project1"
-    },
-    {
-      "id": 2,
-      "name": "Project 2",
-      "description": "This is the second project",
-      "link": "https://www.example.com/project2"
-    },
-    {
-      "id": 3,
-      "name": "Project 3",
-      "description": "This is the third project",
-      "link": "https://www.example.com/project3"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Leonorapp",
+    "description": "This is the second project",
+    "link": "https://www.example.com/project2",
+    "tags": ["UX", "Web development"],
+    "tech": ["Angular", "Firebase"],
+    "image": "path/to/image2.jpg",
+    "year":[ "2021","2024"]
+  },
+  {
+    "id": 2,
+    "name": "Filij",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "repo": "https://www.example.com/project3",
+    "tags": ["Illustration"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg",
+    "year": "2018"
+  },
+  {
+    "id": 4,
+    "name": "Infografia madic",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "tags": ["Web development"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg",
+    "year": "2021"
+    
+  },
+  {
+    "id": 5,
+    "name": "Anish Kapoor",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "tags": ["Illustration"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Leonora cuadro",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "tags": ["Interactive programming"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg",
+    "year": "2019"
+  },
+  {
+    "id": 7,
+    "name": "Museography",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "tags": ["Information design","Illustration"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg",
+    "year": "2021"
+  },
+  {
+    "id": 8,
+    "name": "Dancing bars",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "tags": ["Interactive programming"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg",
+    "year": "2016"
+  },
+  {
+    "id": 9,
+    "name": "Recetario Leonora",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "tags": ["Book", "Research", "Illustration"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg",
+    "year": "2021"
+  },
+  {
+    "id": 10,
+    "name": "Libro Korea",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "tags": ["Book", "Research", "UX"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg",
+    "year": "2022"
+  },
+  {
+    "id": 11,
+    "name": "A la muerte con una sonrisa",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "tags": ["Illustration"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg",
+    "year": "2019"
+  },
+  {
+    "id": 12,
+    "name": "Cuadro Leonora",
+    "description": "This is the third project",
+    "link": "https://www.example.com/project3",
+    "tags": ["Interactive programming"],
+    "tech": ["Vue.js", "MongoDB"],
+    "image": "path/to/image3.jpg",
+    "year": "2022"
+  }
+]

@@ -1,20 +1,17 @@
-import { React, useState } from 'react'
-import { Link } from 'react-router-dom';
-import './App.css'
-import Landing from './components/Landing'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import { React } from 'react';
+import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Outlet from './components/Outlet';
 
-function App() {
- 
+export default function App() {
+
 
   return (
     <>
-      <Navbar/>
-      <Landing/>
-      <Footer/>
-    </> 
+        <Navbar />
+        <Outlet />
+        <Footer />
+    </>
   )
 }
-
-export default App

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "About me",
+    "href": "#aboutme",
+    "ariaLabel": "About me section"
+  },
+  {
+    "name": "Stack",
+    "href": "#stack",
+    "ariaLabel": "Stack section"
+  },
+  {
+    "name": "Projects",
+    "href": "#projects",
+    "ariaLabel": "Projects section"
+  },
+  {
+    "name": "Contact",
+    "href": "#contact",
+    "ariaLabel": "Contact section"
+  }
+  
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "imgUrl":"src/assets/stack/logo-sass.png",
+    "text": "Sass",
+    "experience":"Capable"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-bootstrap.png",
+    "text": "Bootstrap",
+    "experience":"Capable"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-materialui.png",
+    "text": "Material UI",
+    "experience":"Capable"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-adobesuite.png",
+    "text": "Adobe Suite",
+    "experience":"Proficient"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-figma.png",
+    "text": "Figma",
+    "experience":"Proficient"
+  },{
+    "imgUrl": "src/assets/stack/logo-react.png",
+    "text": "React",
+    "experience":"Capable"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-xml.png",
+    "text": "XML",
+    "experience":"Begginer"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-javascript.png",
+    "text": "JavaScript",
+    "experience":"Capable"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-css.png",
+    "text": "CSS",
+    "experience":"Proficient"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-html.png",
+    "text": "HTML",
+    "experience":"Proficient"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-p5.png",
+    "text": "P5.js",
+    "experience":"Begginer"
+  },
+  {
+    "imgUrl": "src/assets/stack/logo-storybook.png",
+    "text": "Storybook",
+    "experience":"Begginer"
+  }
+
+  
+  
+]

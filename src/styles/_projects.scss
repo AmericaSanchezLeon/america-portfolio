@@ -1,18 +1,35 @@
-.projects {
-  &__wrapper {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-  }
+.projects{
 
+  &__wrapper {
+    display: flex;
+    flex-wrap: non-wrap;
+    margin-top:5rem;
+
+  }
+  &__sidebar {
+    ul {
+      list-style-type: none;
+        li {
+          padding:0.5rem;
+            &:hover {
+                cursor: pointer;
+                background-color: $default;
+                color: $lighter;
+            }
+        }
+    }
+}
+  &__list {
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+
+  }
   &__element {
     padding: 20px;
-    border: 5px solid;
-    margin-bottom: 20px;
+    border: 0.3rem solid;
     :hover {
       cursor: pointer;
     }
   }
-
-
 }

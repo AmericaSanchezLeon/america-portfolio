@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "text": "americasanchezleon@gmail.com ",
+        "text": "americasanchezleon@gmail.com  ",
         "href": "mailto:americasanchezleon@gmail.com",
         "ariaLabel": "send mail to americasanchezleon@gmail.com",
         "icon":  "bi bi-envelope"
@@ -10,19 +10,19 @@
         "id": 2,
         "text": "56 2482 1045",
         "href": "",
-        "ariaLabel": "Whatsapp number" ,
+        "ariaLabel": "Whatsapp number  " ,
         "icon":"bi bi-whatsapp"
     },
     {
         "id": 3,
-        "text": "/americascz         ",
+        "text": "/americascz  ",
         "href": "https://www.linkedin.com/in/americascz/",
         "ariaLabel": "Link to LinkedIn account" ,
         "icon": "bi bi-linkedin"
     },
     {
         "id": 4,
-        "text": "/AmericaSanchez        ",
+        "text": "/AmericaSanchez   ",
         "href": "https://github.com/AmericaSanchez",
         "ariaLabel":"Link to Github account" ,
         "icon": "bi bi-github"

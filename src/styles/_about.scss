@@ -1,0 +1,26 @@
+
+
+.about {
+    &__wrapper {
+        display: flex;
+        justify-content: center; 
+        gap:3rem;
+    }
+    &__title{
+    }
+
+    &__highlightedWords {
+        display: flex;
+        font-weight: 700;
+        gap: 5px;
+    }
+
+    &__img {
+        border-radius: 50%;
+        overflow: hidden;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+

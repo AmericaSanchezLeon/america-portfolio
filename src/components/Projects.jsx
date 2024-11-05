@@ -1,32 +1,64 @@
+import React, { useState } from 'react';
 import projectsData from '../data/projectsData.json';
-
-function getRandomColor() {
-  const colors = ['#ff23c8','#0040ff','#00FFF0','#FF2380','#A762FF','#89f900', '#ffd500', '#d000ff', '#c3ff00', '#00ff99', '#ff5500'];
-  const randomIndex = Math.floor(Math.random() * colors.length);
-  return colors[randomIndex];
-}
+import useSelectedProject from '../hooks/useSelectedProject'; // Import the hook
+import ProjectDetail from './ProjectDetail';
+import getRandomColor from '../hooks/getRandomColor';
+import useFilterProjectsByTag from '../hooks/useFilterProjectsByTag';
 
 export default function Projects() {
-  return (
-    <div>
-      <h2>Projects</h2>
-      <div className="projects__wrapper">
-        {projectsData.map((project) => {
-          const color = getRandomColor();
-          return (
-            <div 
-            className="projects__element p-4" 
+  const { selectedProjectId, handleProjectSelect, handleProjectClose } = useSelectedProject();
+  const { filteredProjects, selectedTag, setSelectedTag } = useFilterProjectsByTag(); 
 
-            style={{ borderColor: color }} 
-            key={project.id}
-              > 
-              <h3>{project.name}</h3>
-              <p>{project.description}</p>
-              <a href={project.link}>View Project</a>
-            </div>
-          );
-        })}
+  const tags = new Set();
+  projectsData.forEach((project) => {
+    project.tags.forEach((tag) => tags.add(tag));
+  });
+
+  
+  return (
+    <section id="projects" className="py-2">
+      <h2>Projects</h2>
+      <div className='projects__wrapper row'>
+        <aside className='projects__sidebar col col-md-2 col-sm-4'>
+          <ul>
+            {[...tags].map((tag) => (
+              <button key={tag}
+              className={`filter-tag ${selectedTag === tag ? 'active' : ''}`}
+              onClick={() => setSelectedTag(selectedTag === tag ? null : tag)} 
+                       >
+                {tag}
+              </button>
+            ))}
+          </ul>
+        </aside>
+        <div className='col col-md-9 col-sm-12'>
+        <div className='projects__list row' >
+          {filteredProjects.map((project) => {
+            const color = getRandomColor();
+            return (
+              <div
+                className="projects__element col col-md-3 col-sm-6"
+                style={{ borderColor: color }}
+                key={project.id}
+              >
+                <h4>{project.name}</h4>
+                <p>{project.description}</p>
+                <a onClick={() => handleProjectSelect(project.id)}
+                >View Project</a>
+              </div>
+            );
+          })}
+        </div>
+        </div>
+      
       </div>
-    </div>
+
+      {selectedProjectId && (
+        <ProjectDetail 
+          projectId={selectedProjectId} 
+          onClose={handleProjectClose}
+        />
+      )}
+    </section>
   );
 }

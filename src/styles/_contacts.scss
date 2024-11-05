@@ -1,17 +1,36 @@
-.contacts{
-    &__wrapper{
-        display: flex;
-        gap: 1rem;
+.contact {
+    &__wrapper {
+        margin: auto;
+        width: 50vw;
+        @media (max-width: 768px) { 
+            width: 90vw;
+          }
+
+    }
+    &__links {
         justify-content: center;
         align-items: center;
     }
-    
-
-    &__link{
-        cursor:pointer;
-        &:hover{
-          color: $color-primary;
-          font-weight: 700; 
+    ul {
+        li {
+            padding: 0.3rem;
+            list-style-type: none;
+            font-family: $font-body;
+            a {
+                cursor: pointer;
+                color: $default;
+                text-decoration: none;
+                padding: 0.5rem;
+                &:hover {
+                    background-color: var(--random-color);
+                    font-weight: 700;
+                    list-style-type: none;
+                    color: $lighter;
+                }
+            }
+            i {
+                margin: 1rem;
+            }
         }
     }
- }
+}
