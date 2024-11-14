@@ -1,113 +1,279 @@
 [
-  {
-    "id": 1,
+    {
+    "id":"1",
     "name": "Leonorapp",
-    "description": "This is the second project",
-    "link": "https://www.example.com/project2",
-    "tags": ["UX", "Web development"],
-    "tech": ["Angular", "Firebase"],
-    "image": "path/to/image2.jpg",
-    "year":[ "2021","2024"]
-  },
+    "tags": ["Web development", "UX"], 
+    "year": ["2021", "2024"], 
+    "template": "template3",
+    "description": "",
+    "siteLink": "",
+    "repo": "",
+    "mainImage": "../../src/assets/projects/1/project-image.jpg",
+    "mainImageAria": "", 
+    "tech": ["React","SASS","MaterialUI"],
+    "embedded":[
+      {
+        "name": "Figma mockup",
+        "width": "800",
+        "height":"450",
+        "src":"https://embed.figma.com/design/46kjIEwKHgvjCRwilcjoy1/Leonorapp-2.0?node-id=249-1706&embed-host=share"
+    }
+    ]
+    },
   {
-    "id": 2,
-    "name": "Filij",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
-    "repo": "https://www.example.com/project3",
-    "tags": ["Illustration"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg",
-    "year": "2018"
-  },
-  {
-    "id": 4,
-    "name": "Infografia madic",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
+    "id":"2",
+    "name": "Interactive infographic",
+    "description": "This interactive infographic was made to share all the breakthoughts and achievements accomplished during the realization of the thesis “Alchemy, technology and quotidian life: Interactive museography for the Leonora Carrington House Studio” that was a extensive research of Leonora’s Carrington life beyond her artist facet.",
+    "siteLink": "https://viaje-interdiscipinario-hacia-leonora-carrington.glitch.me/",
+    "repo": "https://github.com/AmericaSanchezLeon/infografiaMADIC",
     "tags": ["Web development"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg",
-    "year": "2021"
-    
+    "tech": ["CSS", "HTML"],
+    "mainImage": "../../src/assets/projects/2/project-image.jpg",
+    "mainImageAria": "Landing page of interactive infographic", 
+    "year": "2022", 
+    "template": "template1"
   },
   {
-    "id": 5,
-    "name": "Anish Kapoor",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
+    "id":"3",
+    "name": "Interactive painting",
+    "tags": ["Interactive programming"],
+    "tech": ["Arduino","Processing","Open CV","AutoCAD"],
+    "year": "2019", 
+    "template": "template1",
+    "repo": "https://github.com/AmericaSanchezLeon/InteractivePainting",
+    "mainImage": "../../src/assets/projects/3/project-image.jpg",
+    "mainImageAria":"",
+    "description": "",
+    "embedded":[
+      {
+        "name": "Youtube video",
+        "width": "800",
+        "height":"450",
+        "src":"https://www.youtube.com/embed/5d_RCvVTdkE?si=nV7ZkaLU3gxqsvo0"
+    }
+    ]  },
+  {
+    "id":"4",
+    "name": "Leonora Carrington House Museography",
     "tags": ["Illustration"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg"
+    "tech": ["Illustrator"],
+    "year": "2021", 
+    "template": "template3",
+    "description": "",
+    "siteLink": "",
+    "repo": "",
+    "mainImage": "../../src/assets/projects/4/project-image.jpg",
+    "mainImageAria": ""
   },
   {
-    "id": 6,
-    "name": "Leonora cuadro",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
+    "id":"5",
+    "name": "Dancing Bars",
     "tags": ["Interactive programming"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg",
-    "year": "2019"
+    "tech": ["Processing"], 
+    "year": "2016", 
+    "template": "template3",
+    "repo": "https://github.com/AmericaSanchezLeon/dancingBarsInterface",
+    "description": "",
+    "siteLink": "",
+    "mainImage": "../../src/assets/projects/5/project-image.jpg",
+    "mainImageAria": ""
   },
   {
-    "id": 7,
-    "name": "Museography",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
-    "tags": ["Information design","Illustration"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg",
-    "year": "2021"
-  },
-  {
-    "id": 8,
-    "name": "Dancing bars",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
-    "tags": ["Interactive programming"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg",
-    "year": "2016"
-  },
-  {
-    "id": 9,
-    "name": "Recetario Leonora",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
+    "id":"6",
+    "name": "The alchemyc kitchen",
     "tags": ["Book", "Research", "Illustration"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg",
-    "year": "2021"
+    "tech": ["Procreate"], 
+    "year": "2021", 
+    "template": "template2",
+    "description": "I love doing research and sometimes, the unexpected comes along, in this case, while researching about Leonora Carrington’s life, diggin into books written by her and about her, interviewing her cousing and speacially her housekeeper, Yolanda Gudiño,  we discovered her magical link to food, cooking and the kitchen space itself. \n  \n We were able to gather some recipes she grew with, the ones that she cooked herself, her favorite dishes and the food she shared with her loved ones.\n  \n Working along professional chefs, and the director of the “Leonora Carrington’s House Studio” we recreate the recipes. \n \n The book illustrations were made by ouselfs, first experiment was attempting to look like scientific illustrations, but at the end a engraved style was made. \n  \n And from all that magic, this book was born.",
+    "siteLink": "https://casadelibrosabiertos.uam.mx/gpd-cocina-alquimica-o-como-salvarse-de-la-hostilidad-del-conformismo-recetario-de-leonora-carrington-la.html",
+    "mainImage": "../../src/assets/projects/6/project-image.jpg",
+    "mainImageAria": "Cover of the book The alchemic kitchen", 
+    "galleryView": [
+      {
+        "index":"1",
+        "galleryImgAria":"Saffron scientific style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image1.jpg"
+      },
+      {
+        "index":"2",
+        "galleryImgAria":"Pear scientific style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image2.jpg"
+      },
+      {
+        "index":"3",
+        "galleryImgAria":"Figs engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image3.jpg"
+      },
+      {
+        "index":"4",
+        "galleryImgAria":"Basil engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image4.jpg"
+      },
+      {
+        "index":"5",
+        "galleryImgAria":"Raspberries engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image5.jpg"
+      },
+      {
+        "index":"6",
+        "galleryImgAria":"Saffron engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image6.jpg"
+      },
+      {
+        "index":"7",
+        "galleryImgAria":"Hazelnuts engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image7.jpg"
+      },
+      {
+        "index":"8",
+        "galleryImgAria":"Cardamom engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image8.jpg"
+      },
+      {
+        "index":"9",
+        "galleryImgAria":"Rosemary engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image9.jpg"
+      },
+      {
+        "index":"10",
+        "galleryImgAria":"Pear engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image10.jpg"
+      },
+      {
+        "index":"11",
+        "galleryImgAria":"Jasmine engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image11.jpg"
+      },
+      {
+        "index":"12",
+        "galleryImgAria":"Mushrooms engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image12.jpg"
+      },
+      {
+        "index":"13",
+        "galleryImgAria":"Potato engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image13.jpg"
+      },
+      {
+        "index":"14",
+        "galleryImgAria":"Porcini mushrooms engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image14.jpg"
+      },
+      {
+        "index":"15",
+        "galleryImgAria":"Asparagus engraved style illustration",
+        "galleryImgSrc": "../../src/assets/projects/6/gallery/gallery-image15.jpg"
+      }
+    ]
   },
   {
-    "id": 10,
-    "name": "Libro Korea",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
-    "tags": ["Book", "Research", "UX"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg",
-    "year": "2022"
+    "id":"7",
+    "name": " Interactive Experience Book",
+    "tags": ["UX","Research","Book"], 
+    "year": "2021", 
+    "template": "template1",
+    "description": "Participated in this book within Chapter 3: Interactive experience, with the article \"Alchemy, technology, and quotidian life: Interactive museography for the Leonora Carrington House Studio\" which relates the research process of creating an interactive museography project for the museum. This project is featured in the book \"EXPERIENCE DESIGN Korea & Latin America Research Exchange\".",
+    "siteLink": "https://play.google.com/books/reader?id=F3tREAAAQBAJ&pg=GBS.PA65&hl=es",
+    "mainImage": "../../src/assets/projects/7/project-image.jpg",
+    "mainImageAria": "Cover of the book EXPERIENCE DESIGN Korea & Latin America Research Exchange"
   },
   {
-    "id": 11,
-    "name": "A la muerte con una sonrisa",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
+    "id":"8",
+    "name": "FILIJ Poster",
     "tags": ["Illustration"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg",
-    "year": "2019"
+    "tech": ["PSD"], 
+    "year": "2018", 
+    "template": "template1",
+    "description": "",
+    "mainImage": "../../src/assets/projects/8/project-image.jpg",
+    "mainImageAria": ""
   },
   {
-    "id": 12,
-    "name": "Cuadro Leonora",
-    "description": "This is the third project",
-    "link": "https://www.example.com/project3",
-    "tags": ["Interactive programming"],
-    "tech": ["Vue.js", "MongoDB"],
-    "image": "path/to/image3.jpg",
-    "year": "2022"
+    "id":"9",
+    "name": "Poster contest To death with a smile",
+    "tags": ["Illustration"],
+    "tech": ["PSD"], 
+    "year": "2019", 
+    "template": "template1",
+    "description": "Participated in the international poster contest “A la muerte con una sonrisa”, the objective of this contest is that international artists to share their vision of death. On 2018 my artwork, inspired on the traditional day of the dead altar and the visit of our beloved’s souls, was selected as finalist and  exhibit in Mexican Museum of Design (MUMEDI)",
+    "mainImage": "../../src/assets/projects/9/project-image.jpg",
+    "mainImageAria": "Poster of the contest"
+  },
+  {
+    "id":"10",
+    "name": "Anish Kapoor contest",
+    "tags": ["Illustration"],
+    "tech": ["Illustrator"], 
+    "year": "2016", 
+    "template": "template1",
+    "description": "",
+    "mainImage": "../../src/assets/projects/10/project-image.jpg",
+    "mainImageAria": "Illustration"
+  },
+  {
+    "id":"11",
+    "name": " MACSO",
+    "tags": ["UX"],
+    "tech": ["Figma"], 
+    "year": "2021", 
+    "template": "template3",
+    "description": "",
+    "siteLink": "",
+    "repo": "",
+    "mainImage": "../../src/assets/projects/11/project-image.jpg",
+    "mainImageAria": "",
+    "embedded":[
+      {
+        "name": "Figma mockup",
+        "width": "800",
+        "height":"450",
+        "src":"https://embed.figma.com/design/f4tLPcbGMfQVgRD56PhN8s/P%C3%A1gina-Maestr%C3%ADa-Ciencias-Computaci%C3%B3n?node-id=0-1&embed-host=share"
+    }
+    ]
+  },
+  {
+    "id":"12",
+    "name": " RADIOMED",
+    "tags": ["Web development", "UX"],
+    "tech": ["Figma", "CSS", "HTML", "JAVA", "Javascript"], 
+    "year": "2021", 
+    "template": "template1",
+    "description": "",
+    "siteLink": "https://americasanchezleon.github.io/SeguridadRadiologica/",
+    "repo":"https://github.com/AmericaSanchezLeon/SeguridadRadiologica",
+    "repo2":"https://github.com/AmericaSanchezLeon/BackEndSeguridadRadiologica",
+    "mainImage": "../../src/assets/projects/12/project-image.jpg",
+    "mainImageAria": "",
+    "embedded":[
+      {
+        "name": "Figma mockup",
+        "width": "800",
+        "height":"450",
+        "src":"https://embed.figma.com/design/ULzIvDS8R2J6Q5aSBzZd0L/wireframes-radiomed?node-id=0-1&embed-host=share"
+    }
+    ]
+  },
+  {
+    "id":"13",
+    "name": "Government mockup",
+    "tags": ["Web development", "UX"],
+    "tech": ["Marvel App"], 
+    "year": "2019", 
+    "template": "template3",
+    "description": "",
+    "siteLink": "",
+    "repo": "",
+    "mainImage": "../../src/assets/projects/13/project-image.jpg",
+    "mainImageAria": ""
+
   }
+  
 ]
+  
+  
+  
+  
+  
+  
+  

@@ -1,29 +1,35 @@
-.nav{
-        display: flex;
-        background-color: $light;
-        position: sticky;
-        top: 0;
-        justify-content: space-around;
-        font-family: $font-body;
-    &__logo{
+
+.nav {
+    z-index: 2;
+    display: flex;
+    background-color: $light;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    font-family: $font-body;
+
+    &__logo {
         width: 3rem;
     }
-        ul {
-            display: flex;
-            margin-top: 1rem;
-            li {
-                list-style-type: none;
-                a{
-                    color: default;
-                    text-decoration: none;
-                    padding: 1rem;
-                    color: $default;
-                }  
-                :hover{
-                    background-color: $secondary;
-                    color: $lighter;
-                }  
+
+    ul {
+        display: flex;
+        margin-top: 1rem;
+
+        li {
+            list-style-type: none;
+
+            a {
+                color: default;
+                text-decoration: none;
+                padding: 1rem;
+                color: $darker;
+            }
+
+            :hover {
+                color: $lighter;
+                background-color: var(--random-color);
             }
         }
+    }
 }
-

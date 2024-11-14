@@ -4,9 +4,30 @@
     &__wrapper {
         display: flex;
         justify-content: center; 
-        gap:3rem;
+        gap: 5rem;
+        overflow: hidden;
+        max-width: 100%;
     }
-    &__title{
+    &__title {  
+        line-height: 1;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 1rem;  
+        &::after {
+            content: attr(data-text);
+            position: absolute;
+            left: 4px;
+            top: 4px;
+            z-index: -1;
+            background-image: linear-gradient(to right, $yellow, $orange, $pink, $purple);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            @media (max-width: 768px) {
+                left:2px;
+                top: 2px;
+          }
+        }
     }
 
     &__highlightedWords {
@@ -16,8 +37,8 @@
     }
 
     &__img {
-        border-radius: 50%;
-        overflow: hidden;
+        clip-path: circle(50% at 50% 50%);
+        overflow: visible;
         object-fit: cover;
         height: 100%;
         width: 100%;

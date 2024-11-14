@@ -1,9 +1,6 @@
 import contactsData from '../data/contactsData.json';
 import ContactCard from "./ContactCard";
 
-import getRandomColor from '../hooks/getRandomColor';
-
-
 export default function Contacts() {
 
   const contact = contactsData.map((data) =>
@@ -12,10 +9,8 @@ export default function Contacts() {
        href={data.href}
        ariaLabel={data.ariaLabel}
        icon = {data.icon}
+       key={data.id} 
      /> )
-    
-     const color  = getRandomColor();
-     document.documentElement.style.setProperty('--random-color', color);
 
   return (
     <section id="contact" className='contact py-md-5 py-3'>

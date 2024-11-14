@@ -3,7 +3,7 @@
         margin: auto;
         width: 50vw;
         @media (max-width: 768px) { 
-            width: 90vw;
+            width: 95vw;
           }
 
     }
@@ -18,7 +18,7 @@
             font-family: $font-body;
             a {
                 cursor: pointer;
-                color: $default;
+                color: $darker;
                 text-decoration: none;
                 padding: 0.5rem;
                 &:hover {

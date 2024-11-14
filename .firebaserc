@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "america-portfolio"
+  },
+  "targets": {
+    "america-portfolio": {
+      "hosting": {
+        "americasanchezleon": [
+          "americasanchezleon"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

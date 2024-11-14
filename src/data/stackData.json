@@ -1,64 +1,86 @@
 [
   {
-    "imgUrl":"src/assets/stack/logo-sass.png",
+    "imgUrl": "../assets/stack/logo-sass.png",
     "text": "Sass",
-    "experience":"Capable"
+    "experience": "Capable",
+    "ariaLabel": "Sass logo" , 
+    "cathegory": ["styles","preprocessor"]
   },
   {
-    "imgUrl": "src/assets/stack/logo-bootstrap.png",
+    "imgUrl": "../assets/stack/logo-bootstrap.png",
     "text": "Bootstrap",
-    "experience":"Capable"
+    "experience": "Capable",
+    "ariaLabel": "Bootstrap logo", 
+    "cathegory": [ "styles","framework"]
   },
   {
-    "imgUrl": "src/assets/stack/logo-materialui.png",
+    "imgUrl": "../assets/stack/logo-materialui.png",
     "text": "Material UI",
-    "experience":"Capable"
+    "experience": "Capable",
+    "ariaLabel": "Material UI logo", 
+    "cathegory": [ "styles","framework"]
   },
   {
-    "imgUrl": "src/assets/stack/logo-adobesuite.png",
+    "imgUrl": "../assets/stack/logo-adobesuite.png",
     "text": "Adobe Suite",
-    "experience":"Proficient"
+    "experience": "Proficient",
+    "ariaLabel": "Adobe Suite logo", 
+    "cathegory": ["design","software"]
   },
   {
-    "imgUrl": "src/assets/stack/logo-figma.png",
+    "imgUrl": "../assets/stack/logo-figma.png",
     "text": "Figma",
-    "experience":"Proficient"
-  },{
-    "imgUrl": "src/assets/stack/logo-react.png",
+    "experience": "Proficient",
+    "ariaLabel": "Figma logo", 
+    "cathegory": ["design","software"]
+  },
+  {
+    "imgUrl": "../assets/stack/logo-react.png",
     "text": "React",
-    "experience":"Capable"
+    "experience": "Capable",
+    "ariaLabel": "React logo", 
+    "cathegory": ["development","framework"]
   },
   {
-    "imgUrl": "src/assets/stack/logo-xml.png",
+    "imgUrl": "../assets/stack/logo-xml.png",
     "text": "XML",
-    "experience":"Begginer"
+    "experience": "Begginer",
+    "ariaLabel": "XML logo", 
+    "cathegory": "markup language"
   },
   {
-    "imgUrl": "src/assets/stack/logo-javascript.png",
+    "imgUrl": "../assets/stack/logo-javascript.png",
     "text": "JavaScript",
-    "experience":"Capable"
+    "experience": "Capable",
+    "ariaLabel": "JavaScript logo", 
+    "cathegory": "language"
   },
   {
-    "imgUrl": "src/assets/stack/logo-css.png",
+    "imgUrl": "../assets/stack/logo-css.png",
     "text": "CSS",
-    "experience":"Proficient"
+    "experience": "Proficient",
+    "ariaLabel": "CSS logo", 
+    "cathegory": ["language", "styles"]
   },
   {
-    "imgUrl": "src/assets/stack/logo-html.png",
+    "imgUrl": "../assets/stack/logo-html.png",
     "text": "HTML",
-    "experience":"Proficient"
+    "experience": "Proficient",
+    "ariaLabel": "HTML logo", 
+    "cathegory": "markup language"
   },
   {
-    "imgUrl": "src/assets/stack/logo-p5.png",
+    "imgUrl": "../assets/stack/logo-p5.png",
     "text": "P5.js",
-    "experience":"Begginer"
+    "experience": "Begginer",
+    "ariaLabel": "P5.js logo",
+    "cathegory": "tool"
   },
   {
-    "imgUrl": "src/assets/stack/logo-storybook.png",
+    "imgUrl": "../assets/stack/logo-storybook.png",
     "text": "Storybook",
-    "experience":"Begginer"
+    "experience": "Begginer",
+    "ariaLabel": "Storybook logo",
+    "cathegory": "tool"
   }
-
-  
-  
 ]

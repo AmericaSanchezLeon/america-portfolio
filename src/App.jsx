@@ -5,13 +5,11 @@ import Footer from './components/Footer';
 import Outlet from './components/Outlet';
 
 export default function App() {
-
-
-  return (
-    <>
-        <Navbar />
+     return (
+      <>
+       <Navbar />
         <Outlet />
         <Footer />
-    </>
-  )
+      </> 
+  );
 }

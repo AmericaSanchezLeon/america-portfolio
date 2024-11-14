@@ -1,4 +1,17 @@
+@function randomColor() {
+    $colors: (
+        'yellow': $yellow,
+        'orange': $orange,
+        'pink': $pink,
+        'purple': $purple,
+        'green': $green,
+        'periwinkle': $periwinkle
+    );
+    $keys: map-keys($colors);
+    $random-key: nth($keys, random(length($keys)));
+  
+    @return map-get($colors, $random-key); 
+  }
 
 
-
-
+  

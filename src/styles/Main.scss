@@ -9,7 +9,8 @@
 @import 'mixins';
 @import 'buttons';
 @import 'projectDetail';
-
+@import 'projectDetailTemplate2';
+@import 'badges';
 
 body {
     margin: 0 auto;
@@ -18,6 +19,11 @@ body {
 
     ::selection {
         background-color: $pink;
-        color: $light;
+        color: $lighter;
     }
 }
+
+
+// @media (prefers-color-scheme: dark) { 
+
+// }

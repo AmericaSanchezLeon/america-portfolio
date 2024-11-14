@@ -1,6 +1,7 @@
+
 import { useState } from 'react';
 
-export default function useSelectedProject() {
+const useSelectedProject = () => {
   const [selectedProjectId, setSelectedProjectId] = useState(null);
 
   const handleProjectSelect = (projectId) => {
@@ -11,5 +12,11 @@ export default function useSelectedProject() {
     setSelectedProjectId(null);
   };
 
-  return { selectedProjectId, handleProjectSelect, handleProjectClose };
-}
+  return {
+    selectedProjectId,
+    handleProjectSelect,
+    handleProjectClose
+  };
+};
+
+export default useSelectedProject;

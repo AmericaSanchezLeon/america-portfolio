@@ -1,29 +1,29 @@
-.stack{
-    &__wrapper{
-      width: 60vw;
-      margin: auto;
-      @media (max-width: 768px) { 
-        width: 90vw;
-        margin: inherit;
-      }
-    } 
-    &__row {
+.stack {
+  &__wrapper {
+    width: 60vw;
+    margin: auto;
+
+    @media (max-width: 768px) {
+      width: 90vw;
+      margin: inherit;
+    }
+  }
+
+  &__row {
     justify-content: center;
     align-items: center;
-      }
-    
-    &__item {
-       display:grid;
-       padding: 1rem;
-       justify-content: center;
-       text-align: center;
-       font-family: $font-body;
-      }
-    &__img {
-        margin-bottom:1rem;
-        width: 100%;
-      }
-    
-    
-}
+  }
 
+  &__item {
+    display: grid;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    font-family: $font-body;
+  }
+
+  &__img {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}

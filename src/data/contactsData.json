@@ -15,15 +15,15 @@
     },
     {
         "id": 3,
-        "text": "/americascz  ",
-        "href": "https://www.linkedin.com/in/americascz/",
+        "text": "/americasanchezleon  ",
+        "href": "https://www.linkedin.com/in/americasanchezleon/",
         "ariaLabel": "Link to LinkedIn account" ,
         "icon": "bi bi-linkedin"
     },
     {
         "id": 4,
-        "text": "/AmericaSanchez   ",
-        "href": "https://github.com/AmericaSanchez",
+        "text": "/AmericaSanchezLeon   ",
+        "href": "https://github.com/AmericaSanchezLeon",
         "ariaLabel":"Link to Github account" ,
         "icon": "bi bi-github"
     }
