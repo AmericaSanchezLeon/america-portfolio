@@ -3,6 +3,6 @@ export const getExperienceYears = (startYear) => {
   return currentYear - startYear;
 };
 
-export const uxExperience = getExperienceYears(2020); 
-export const webDevExperience = getExperienceYears(2021);
-export const designExperience = getExperienceYears(2014);
+export const uxExperience = getExperienceYears(2019); 
+export const webDevExperience = getExperienceYears(2020);
+export const designExperience = getExperienceYears(2015);
