@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function MainImage({project}){
-
+    
     return(
         <img src={project.mainImage} 
         alt={project.mainImageAria} 

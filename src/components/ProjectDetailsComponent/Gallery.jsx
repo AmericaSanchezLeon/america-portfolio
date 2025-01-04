@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Gallery({ project }) {
   return (
-    <div className="projectDetail__galleryView w-75 m-auto mt-3 row d-flex">
+    <div className="projectDetail__galleryView m-auto mt-3 row d-flex">
       {project.galleryView.map((galleryView, index) => ( 
         <img
           tabIndex="0"

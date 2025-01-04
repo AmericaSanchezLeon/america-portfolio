@@ -5,7 +5,8 @@ import Footer from './components/Footer';
 import Outlet from './components/Outlet';
 
 export default function App() {
-     return (
+  
+  return (
       <>
        <Navbar />
         <Outlet />

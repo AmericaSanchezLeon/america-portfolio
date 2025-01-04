@@ -16,11 +16,11 @@ export default function ProjectList({ filteredProjects, handleProjectSelect }) {
               key={project.id}
               style={{
                 borderColor: color,
-                backgroundImage: `url(src/assets/projects/${project.id}/project-image.jpg)`,
+                backgroundImage: `url(../assets/projects/${project.id}/project-image.jpg)`,
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
-                boxShadow:"inset 0 0 0 99999px rgba(231, 227, 220, 0.5)",
+                boxShadow:"inset 0 0 0 99999px rgba(231, 227, 220, 0.3)",
               }}
             >
               <div>

@@ -10,7 +10,8 @@ export default function Embedded({ project }) {
             width={embedded.width}
             height={embedded.height}
             src={embedded.src}
-            allowFullScreen 
+            allowFullScreen
+            className="projectDetail__iframe" 
           />
         ))}
     </>

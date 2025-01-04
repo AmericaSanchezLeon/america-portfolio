@@ -20,5 +20,12 @@
             color: $darker;
         }
     }
+    &__iframe{
+        height: 50vh;
+        @media (max-width: 768px) { 
+            height: 100%;
+        }
+    }
 }
+
 

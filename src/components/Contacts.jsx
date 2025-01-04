@@ -1,8 +1,10 @@
+import { useEffect } from 'react';
+
 import contactsData from '../data/contactsData.json';
 import ContactCard from "./ContactCard";
+import getRandomColor from '../hooks/getRandomColor';
 
 export default function Contacts() {
-
   const contact = contactsData.map((data) =>
     <ContactCard
        text={data.text}
@@ -11,6 +13,13 @@ export default function Contacts() {
        icon = {data.icon}
        key={data.id} 
      /> )
+
+     useEffect(() => {
+      const componentRoot = document.getElementById('contact');
+      const color = getRandomColor();
+      componentRoot.style.setProperty('--random-color', color);
+    }, []);
+
 
   return (
     <section id="contact" className='contact py-md-5 py-3'>

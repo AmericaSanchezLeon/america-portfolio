@@ -1,18 +1,26 @@
+import { useEffect, useState } from 'react';
+
 import navbarData from '../data/navbarData.json';
 import logo from  '../assets/logo-america.svg';
 import getRandomColor from '../hooks/getRandomColor';
 
 export default function Navbar() {
-
-  const color  = getRandomColor();
-  document.documentElement.style.setProperty('--random-color', color);
-
+ 
+  useEffect(() => {
+    const componentRoot = document.getElementById('navbar');
+    const color = getRandomColor();
+    componentRoot.style.setProperty('--random-color', color);
+  }, []);
   return (
-    <nav className="nav">
-      <img className="nav__logo d-none d-md-flex" 
-      src={logo} alt='america sanchez logo'/>
+    <nav className="nav d-flex" 
+          id="navbar">
+     <img 
+      className="nav__logo d-none d-md-flex" 
+      src={logo} 
+      alt='america sanchez logo'
+      />
       
-      <ul>
+      <ul className="d-flex">
         {navbarData.map((item) => (
           <li key={item.name}>
             <a href={item.href} 
@@ -22,6 +30,7 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
+     
     </nav>
   );
 }
