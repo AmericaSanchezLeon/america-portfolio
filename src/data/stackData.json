@@ -2,21 +2,21 @@
   {
     "imgUrl": "../assets/stack/logo-sass.png",
     "text": "Sass",
-    "experience": "Capable",
+    "experience": "Proficient",
     "ariaLabel": "Sass logo" , 
     "cathegory": ["styles","preprocessor"]
   },
   {
     "imgUrl": "../assets/stack/logo-bootstrap.png",
     "text": "Bootstrap",
-    "experience": "Capable",
+    "experience": "Proficient",
     "ariaLabel": "Bootstrap logo", 
     "cathegory": [ "styles","framework"]
   },
   {
     "imgUrl": "../assets/stack/logo-materialui.png",
     "text": "Material UI",
-    "experience": "Capable",
+    "experience": "Intermediate",
     "ariaLabel": "Material UI logo", 
     "cathegory": [ "styles","framework"]
   },
@@ -37,7 +37,7 @@
   {
     "imgUrl": "../assets/stack/logo-react.png",
     "text": "React",
-    "experience": "Capable",
+    "experience": "Intermediate",
     "ariaLabel": "React logo", 
     "cathegory": ["development","framework"]
   },
@@ -51,7 +51,7 @@
   {
     "imgUrl": "../assets/stack/logo-javascript.png",
     "text": "JavaScript",
-    "experience": "Capable",
+    "experience": "Intermediate",
     "ariaLabel": "JavaScript logo", 
     "cathegory": "language"
   },

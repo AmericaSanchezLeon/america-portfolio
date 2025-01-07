@@ -2,7 +2,7 @@
     {
     "id":"1",
     "name": "Leonorapp",
-    "tags": ["Web development", "UX"], 
+    "tags": ["Web development", "UX/UI"], 
     "year": ["2021", "2024"], 
     "template": "template3",
     "description": "",
@@ -22,7 +22,7 @@
     {
       "id":"13",
       "name": "Alchemy, technology and quotidian life: ",
-      "tags": ["Editorial design", "UX", "Research"],
+      "tags": ["Editorial design", "UX/UI", "Research"],
       "tech": ["InDesign", "Procreate"], 
       "year": "2021", 
       "template": "template3",
@@ -64,7 +64,7 @@
     "tech": ["Arduino","P5","Open CV","AutoCAD"],
     "year": "2019", 
     "template": "template1",
-    "repo": "https://githubc.com/AmericaSanchezLeon/InteractivePainting",
+    "repo": "https://github.com/AmericaSanchezLeon/InteractivePainting",
     "mainImage": "../assets/projects/3/project-image.jpg",
     "mainImageAria":"Picture of the intervened painting",
     "description": "In this project Leonora Carrington’s painting “Grandmother Moorhead’s aromatic kitchen” was was intervened to create a interactive physical painting.  \n  \n The painting elements were traced with Autocad and  cutted in 3mm MDF, the canvas was a box were on the inside all the mechanism, wires and gears were placed, and in the front, the paintin was sliced so the characters were in different planes. \n  \n Through image processing with OpenCV, the program identifies the color of some determinated elements related to kitchen an cooking, and when these elements are showed in the camera, the painting responds with some movement of the characters or the lighting of some elements. \n  \n  Using Processing and p5.js as mediator between OpenCV and Arduino, when a stablished color range signal was received, an action was sent to an Arduino uno board and this one triggered a led or servo, that was placed carefully to simulate the activy the character would be doing.",
@@ -228,7 +228,7 @@
   {
     "id":"7",
     "name": " Interactive Experience Book",
-    "tags": ["UX","Research","Book"], 
+    "tags": ["UX/UI","Research","Book"], 
     "year": "2021", 
     "template": "template1",
     "description": "Participated in this book within Chapter 3: Interactive experience, with the article \"Alchemy, technology, and quotidian life: Interactive museography for the Leonora Carrington House Studio\" which relates the research process of creating an interactive museography project for the museum. This project is featured in the book \"EXPERIENCE DESIGN Korea & Latin America Research Exchange\".",
@@ -272,7 +272,7 @@
   {
     "id":"11",
     "name": " MACSO",
-    "tags": ["UX"],
+    "tags": ["UX/UI"],
     "tech": ["Figma"], 
     "year": "2021", 
     "template": "template1",
@@ -290,7 +290,7 @@
   {
     "id":"12",
     "name": " RADIOMED",
-    "tags": ["Web development", "UX"],
+    "tags": ["Web development", "UX/UI"],
     "tech": ["Figma", "CSS", "HTML", "JAVA", "Javascript"], 
     "year": "2021", 
     "template": "template1",
