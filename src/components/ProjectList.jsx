@@ -6,7 +6,7 @@ export default function ProjectList({ filteredProjects, handleProjectSelect }) {
   return (
 
     <>
-      <div className='projects__list col col-10 col-md-8 m-auto'
+      <div className='projects__list col col-10 col-md-9 m-auto'
       >
         {filteredProjects.map((project) => {
           const color = getRandomColor();
