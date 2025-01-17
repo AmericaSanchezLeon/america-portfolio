@@ -19,7 +19,7 @@ export default function ProjectDetail({ projectId, onClose }) {
 
   return (
     <section
-      className='projectDetail__container p-md-5 p-1 col col-md-9 col-10 m-auto'
+      className='projectDetail__container p-md-5 p-1 col col-md-8 col-10 m-auto'
       key={project.id}
       style={{ border: `0.5rem solid ${getRandomColor()}` }}
     >

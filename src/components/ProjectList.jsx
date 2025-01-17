@@ -24,7 +24,7 @@ export default function ProjectList({ filteredProjects, handleProjectSelect }) {
               }}
             >
               <div>
-                <h4 className='projects__element__title'>{project.name}</h4>
+                <h3 className='projects__element__title'>{project.name}</h3>
                 <div  className='py-1 m-auto d-flex flex-wrap themedBadge-list'>
                   {project?.tech?.length > 0 && <TechBadges project={project} />} 
                 </div>

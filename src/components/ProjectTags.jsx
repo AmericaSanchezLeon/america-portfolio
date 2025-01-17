@@ -9,7 +9,7 @@ export default function ProjectTags({ selectedTag, setSelectedTag }) {
     });
 
     return (
-        <aside className="projects__sidebar col col-12 col-md-3">
+        <aside className="projects__sidebar col col-12 col-md-4 pb-4">
           {[...tags].map((tag) => (
             <button
               key={tag}

@@ -13,6 +13,7 @@ body {
 h1 {
   font-family: $font-header;
   font-size: 6rem !important;
+  font-weight: bold !important;
 
   @media (max-width: 768px) {
     font-size: 3rem !important;
@@ -40,6 +41,7 @@ h2 {
 
 h3 {
   font-family: $font-header;
+  font-size: larger !important;
 }
 
 p {
