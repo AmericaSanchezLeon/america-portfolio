@@ -10,6 +10,7 @@ function useMultiDarkMode() {
     const body = document.body;
     const navbar = document.getElementById("navbar");
     const footer = document.querySelector("footer");
+    const anchor = document.querySelector("a");
 
     body.classList.toggle("dark-mode", isDarkMode);
     if (navbar) {
@@ -17,7 +18,11 @@ function useMultiDarkMode() {
     }
     if (footer) {
       footer.classList.toggle("dark-mode", isDarkMode);
+    }  
+    if (anchor) {
+      anchor.classList.toggle("dark-mode", isDarkMode);
     }
+
 
     localStorage.setItem("DARK-MODE", JSON.stringify(isDarkMode));
   }, [isDarkMode]);

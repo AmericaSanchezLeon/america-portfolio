@@ -2,10 +2,9 @@
 
 body {
   background-color: $lighter;
-  color: $darker;
 }
 
-a:link {
+a:link{
   color: $darker;
 }
 
@@ -14,6 +13,8 @@ nav {
   background-color: $light;
   color: $darker;
 }
+
+
 
 //Dark mode
 body.dark-mode {
