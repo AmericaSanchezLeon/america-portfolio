@@ -1,0 +1,7 @@
+.template2{
+    &__wrapper{
+        gap:$spacer-large;
+        @media (max-width: 768px) { 
+        }
+    }
+    }

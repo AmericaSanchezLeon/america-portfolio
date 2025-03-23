@@ -1,0 +1,29 @@
+.stack {
+  &__wrapper {
+    width: 60vw;
+    margin: auto;
+
+    @media (max-width: 768px) {
+      width: 90vw;
+      margin: inherit;
+    }
+  }
+
+  &__row {
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item {
+    display: grid;
+    padding: $spacer-large;
+    justify-content: center;
+    text-align: center;
+    font-family: $font-body;
+  }
+
+  &__img {
+    margin-bottom: $spacer-large;
+    width: $spacer-xxlarge;
+  }
+}

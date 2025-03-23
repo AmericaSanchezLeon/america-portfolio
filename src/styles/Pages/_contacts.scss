@@ -1,0 +1,36 @@
+.contact {
+    &__wrapper {
+        margin: auto;
+        width: 50vw;
+        @media (max-width: 768px) { 
+            width: 95vw;
+          }
+
+    }
+    &__links {
+        justify-content: center;
+        align-items: center;
+    }
+    ul {
+        li {
+            padding: $spacer-xs;
+            list-style-type: none;
+            font-family: $font-body;
+            a{
+                cursor: pointer;
+                text-decoration: none;
+                padding: $spacer-small;
+
+                &:hover {
+                    background-color: var(--random-color);
+                    font-weight: 700;
+                    list-style-type: none;
+                    color: $lighter;
+                }
+            }
+            i {
+                margin: $spacer-medium;
+            }
+        }
+    }
+}

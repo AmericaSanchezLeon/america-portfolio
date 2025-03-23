@@ -1,0 +1,31 @@
+.projectDetail{
+    &__titleContainer{
+        display: flex;
+        gap: $spacer-medium;
+        flex-wrap: nowrap;
+        align-items: center;
+        @media (max-width: 768px) { 
+            padding-top: $spacer-medium;
+        }
+    }
+    &__description{
+        white-space: pre-line;  
+        vertical-align: bottom;
+    }
+    &__link{
+        font-family: $font-body;
+        padding: 0 $spacer-xxs;
+        line-break: anywhere;
+        a{
+            color: $darker;
+        }
+    }
+    &__iframe{
+        height: 50vh;
+        @media (max-width: 768px) { 
+            height: 100%;
+        }
+    }
+}
+
+

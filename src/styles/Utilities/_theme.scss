@@ -1,0 +1,49 @@
+//Element color settings
+
+body {
+  background-color: $lighter;
+  color: $darker;
+}
+
+a:link {
+  color: $darker;
+}
+
+footer,
+nav {
+  background-color: $light;
+  color: $darker;
+}
+
+//Dark mode
+body.dark-mode {
+  background-color: $darker;
+  color: $lighter;
+}
+
+body.dark-mode a {
+  color: $lighter;
+}
+
+footer.dark-mode,
+nav.dark-mode {
+  background-color: $dark;
+  color: $lighter;
+
+  button {
+    color: $lighter;
+
+  }
+
+}
+
+body:has(.dark-mode) {
+  h3.projects__element__title {
+    @extend .dark-mode-behaviour
+  }
+}
+
+.dark-mode-behaviour {
+  background-color: $dark;
+  color: $lighter;
+}

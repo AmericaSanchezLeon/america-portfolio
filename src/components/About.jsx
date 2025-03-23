@@ -24,7 +24,7 @@ export default function About() {
       <div className='about__wrapper row pt-5'>
         <div className='col-10 col-md-6'>
           <h1 className='about__title' data-text="America Sanchez Leon" tabIndex="0">America Sanchez Leon</h1>
-          <h3 tabIndex="0">UX engineer | Product designer | UI developer</h3>
+          <h3  tabIndex="0">UX engineer | Product designer | UI developer</h3>
           <p className='mt-3'>I’m an unicorn 🦄
             I have {uxExperience} years of experience un UX/UI, {webDevExperience} as UI developer and front end developer,
             and a whole background of {designExperience} years as integral designer.
@@ -39,8 +39,6 @@ export default function About() {
             I’m also skilled at developing UI components and
             implementing cleand and organized design systems.
             <br />
-
-
           </p>
           <span className='about__highlightedWords'><p>I love</p><p style={{ color: color }}>{words[currentWordIndex]}</p></span>
           <a

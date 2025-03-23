@@ -1,0 +1,58 @@
+.btn-themed {
+    font-family: $font-body;
+    font-weight: 500;
+}
+
+.btn-color-behaviour {
+    border-radius: 0;
+    border: none;
+    color: $darker;
+    padding: $spacer-small;
+    background-color: transparent;
+
+    &:hover {
+        background-color: $darker;
+        color: $lighter ;
+        border-radius: 0;
+    }
+}
+
+.btn-themed-icon {
+    @extend .btn-color-behaviour;
+}
+
+.btn-themed-primary {
+    @extend .btn-themed;
+    border: $spacer-xs solid $primary;
+}
+
+.btn-themed-tertiary {
+    @extend .btn-themed;
+    @extend .btn-color-behaviour;
+}
+
+
+//Dark mode
+body:has(.dark-mode) {
+    .btn-themed-tertiary,
+    .btn-themed-icon {
+        color: $lighter;
+    }
+
+    .projects__element__btn{
+        color: $darker;
+        &:hover{
+            @extend .dark-mode-behaviour;
+        }
+    }
+    .btn-themed-icon:hover{
+        background-color: $dark;
+        
+    }
+
+    .btn-themed-tertiary.active {
+        @extend .dark-mode-behaviour;
+    }
+
+
+}

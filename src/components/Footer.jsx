@@ -3,7 +3,7 @@ import getRandomColor from '../hooks/getRandomColor';
 export default function Footer() {
   const tech = ['React, ', 'SASS, ', 'JS, ', 'Bootstrap', ' and ', 'Firebase'];
   const color  = getRandomColor();
-  
+
   return (
     <footer className="py-2">
       <p tabIndex="0">

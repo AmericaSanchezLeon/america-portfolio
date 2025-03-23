@@ -1,0 +1,43 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+:root{
+    --yellow: $yellow
+    --orange:  $orange
+    --pink: $pink
+    --purple:  $purple
+    --green :$green;
+    --periwinkle: $periwinkle;
+}
+
+$light: #CCC9C3;
+$lighter:#E7E3DC;
+$dark: #555555;
+$darker:#2F2F2F;
+
+
+$yellow: #c07702;
+$orange: #CB5C47;
+$pink: #E04F88;
+$purple: #8558C8;
+$green: #86991C;
+$periwinkle: #5881CB;
+
+$primary: $purple;
+$secondary: $orange;
+$terciary: $pink;
+$accent: $blue;
+
+.progress-color{
+    color: $yellow;
+}
+
+$theme-colors: (
+    "primary" : $primary,
+    "secondary": $secondary,
+    "dark": #2F2F2F, 
+    "light": #E7E3DC,
+    "text-bg-primary": $yellow
+)
+
+
+

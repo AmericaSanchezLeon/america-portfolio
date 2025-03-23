@@ -1,28 +1,34 @@
-@import 'fonts';
-@import 'colors';
-@import 'projects';
-@import 'about';
-@import 'contacts';
-@import 'footer';
-@import 'navbar';
-@import 'stack';
-@import 'mixins';
-@import 'buttons';
-@import 'projectDetail';
-@import 'projectDetailTemplate2';
-@import 'badges';
+@import 'Reset/colors';
+
+// Utilities
+@import 'Utilities/mixins';
+@import 'Utilities/variables';
+@import 'Utilities/_theme';
+
+//Reset
+@import 'Reset/typography';
+
+//Pages
+@import 'Pages/stack';
+@import 'Pages/projects';
+@import 'Pages/about';
+@import 'Pages/contacts';
+@import 'Pages/footer';
+
+// Components
+@import 'Components/navbar';
+@import 'Components/buttons';
+@import 'Components/badges';
+
+// Templates
+@import 'Templates/projectDetail';
+@import 'Templates/projectDetailTemplate2';
 
 body {
     margin: 0 auto;
-    color: default;
-    background-color: $lighter;
-
+    background-color: $lighter;    
     ::selection {
         background-color: $pink;
         color: $lighter;
     }
 }
-
-
-// @media (prefers-color-scheme: dark) { 
-// }
