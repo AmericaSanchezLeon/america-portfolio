@@ -5,6 +5,7 @@
     justify-content: space-around;
     font-family: $font-body;
     flex-wrap: wrap;
+    margin-top: auto;
 
     &__logo {
         min-width: $spacer-large;
@@ -17,12 +18,15 @@
 
     &__toggler {
         border: solid $spacer-xs transparent;
-        background-color: transparent;
-
+        // background-color: transparent;
+        border-radius: 0;
+        padding: $spacer-small;
         &:hover,
         &:focus {
-            border: solid $spacer-xs var(--random-color);
             border-radius: 0;
+            background-color:var(--random-color);
+            color: $lighter;
+        
         }
 
     }
@@ -31,16 +35,17 @@
         margin: 0 0 0 $spacer-xlarge;
         background-color: transparent;
         border: solid $spacer-xs transparent;
-
+        padding: $spacer-small;
         &:hover,
         &:focus {
-            border: solid $spacer-xs var(--random-color);
             border-radius: 0;
+            background-color:var(--random-color);
+            color: $lighter;
         }
     }
 
     ul {
-        margin-top: $spacer-medium;
+        margin-top: auto;
 
         li {
             list-style-type: none;
@@ -61,7 +66,7 @@
 @media (max-width: 768px) {
     .nav {
         display: flex;
-
+        
         &__toggler {
             justify-items: end;
         }
