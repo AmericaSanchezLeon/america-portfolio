@@ -29,8 +29,8 @@ export default function About() {
             I have {uxExperience} years of experience un UX/UI, {webDevExperience} as UI developer and front end developer,
             and a whole background of {designExperience} years as integral designer.
             <br /><br />
-            <b> I specialize in reducing the inconsistency between design and development.</b> My goal is to deliver cohesive, functional and usable products. With experience
-            experience in both design and development, I can
+            <b> I specialize in reducing the inconsistency between design and development.</b> My goal is to deliver cohesive, functional and usable products. 
+            With experience in both design and development, I can
             translate complex user and business needs into
             intuitive and accesible interfaces that
             not only meet user expectations but also account
