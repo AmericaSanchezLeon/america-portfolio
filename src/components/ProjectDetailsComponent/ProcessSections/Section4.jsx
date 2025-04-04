@@ -6,11 +6,9 @@ export default function Section4({ project }) {
   }
 
   return (
-    <div className="">
+    <div mt-lg-5 mt-2>
       {project.section4.map((section4, index) => (
         <div key={index}>
-
-          <h4>{section4.subtitle}</h4>
 
           <div>
             {section4.siteLink && (
@@ -38,7 +36,7 @@ export default function Section4({ project }) {
               ))}
           </div>
 
-        
+
 
           <div>
             {section4.image && (
@@ -49,20 +47,22 @@ export default function Section4({ project }) {
             )}
           </div>
           <div className='row'>
-            <div className="col-lg-6 col-12">
+            <div className="col-lg-7 col-12">
+              <h4>{section4.subtitle}</h4>
+
               <p>{section4.description}</p>
               <div className="mt-4">
-            {section4.tech && section4.tech.map((tech, techIndex) => (
-              <div key={techIndex} className='themedBadgeWrapper'>
-                <span className='themedBadge'>
-                  {tech}
-                </span>
+                {section4.tech && section4.tech.map((tech, techIndex) => (
+                  <div key={techIndex} className='themedBadgeWrapper'>
+                    <span className='themedBadge'>
+                      {tech}
+                    </span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
 
             </div>
-            <div className="col-lg-6 col-12">
+            <div className="col-lg-5 col-12">
               {section4.galleryView && (
                 <div className="projectDetail__galleryView m-auto mt-3 row d-flex">
                   {section4.galleryView.map((galleryView, index) => (
@@ -77,10 +77,10 @@ export default function Section4({ project }) {
                 </div>
               )}
             </div>
-            
+
           </div>
 
-         
+
 
 
         </div>

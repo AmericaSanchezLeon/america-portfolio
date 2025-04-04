@@ -6,7 +6,7 @@ export default function Section5({ project }) {
   }
 
   return (
-    <div >
+    <div className="mt-lg-5 mt-2">
       {project.section5.map((section5, index) => (
         <div key={index}>
     <h4>{section5.subtitle}</h4>

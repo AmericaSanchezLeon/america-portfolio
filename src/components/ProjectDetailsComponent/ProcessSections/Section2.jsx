@@ -6,15 +6,16 @@ export default function Section2({ project }) {
   }
 
   return (
-    <div className="">
+    <div className="mt-lg-5 mt-2">
       {project.section2.map((section2, index) => (
         <div key={index}>
           
-          <h4>{section2.subtitle}</h4>
 
 
           <div className='row'>
             <div className="col-lg-6 col-12">
+            <h4>{section2.subtitle}</h4>
+
             <p>{section2.description}</p>
 
             </div>

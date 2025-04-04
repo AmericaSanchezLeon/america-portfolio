@@ -6,11 +6,10 @@ export default function Section3({ project }) {
   }
 
   return (
-    <div className="">
+    <div className="mt-lg-5 mt-2">
       {project.section3.map((section3, index) => (
         <div key={index}>
 
-          <h4>{section3.subtitle}</h4>
 
           <div className='row'>
             <div className="col-lg-5 col-12">
@@ -33,6 +32,8 @@ export default function Section3({ project }) {
             </div>
 
             <div className="col-lg-7 col-12">
+            <h4>{section3.subtitle}</h4>
+
               <p>{section3.description}</p>
               <div className="mt-4">
                 {section3.tech && section3.tech.map((tech, techIndex) => (

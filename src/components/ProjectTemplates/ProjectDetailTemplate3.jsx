@@ -46,7 +46,7 @@ export default function ProjectDetailTemplate3({ project, onClose }) {
     <BadgesComponent project={project}/>
     <Links project={project}/>   
 
-    <h3>Design process</h3> 
+    <h3 className="mt-lg-5 mt-5">Design process</h3> 
     <Section1 project={project}/>
     <Section2 project={project}/>
     <Section3 project={project}/>
