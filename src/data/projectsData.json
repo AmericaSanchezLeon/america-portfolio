@@ -1,235 +1,379 @@
 [
-    {
-    "id":"1",
-    "name": "Leonorapp",
-    "tags": ["Web development", "UX/UI"], 
-    "year": ["2021", "2024"], 
-    "template": "template3",
-    "description": "",
-    "siteLink": "",
-    "repo": "https://github.com/AmericaSanchezLeon/Leonorapp",
-    "mainImage": "../assets/projects/1/project-image.jpg",
-    "mainImageAria": "", 
-    "tech": ["React","SASS","MaterialUI"],
-    "embedded":[
-      {
-        "name": "Figma mockup",
-        "width": "100%",
-        "src":"https://embed.figma.com/design/46kjIEwKHgvjCRwilcjoy1/Leonorapp-2.0?node-id=249-1706&embed-host=share"
-    }
-    ]
-    },
-    {
-      "id":"13",
-      "name": "Alchemy, technology and quotidian life: ",
-      "tags": ["Editorial design", "UX/UI", "Research"],
-      "tech": ["InDesign", "Procreate"], 
-      "year": "2021", 
-      "template": "template3",
-      "description": "Our thesis project won an honorific mention at the National design contest 2021 \"Diseña México\" in the master's degree category.",
-      "mainImage": "../assets/projects/6/project-image.jpg",
-      "mainImageAria": "",
-      "embedded":[
-        {
-          "name": "Document visualizator",
-          "width": "100%",
-          "src":"https://www.yumpu.com/es/embed/view/lk8NIMaY2xPp7Hju"
-      }
-      ],
-      "galleryView": [
-        {
-          "index":"1",
-          "galleryImgAria":"",
-          "galleryImgSrc": "../assets/projects/6/gallery/gallery-image1.jpg"
-        }
-        ]
-    },
   {
-    "id":"2",
+    "id": "1",
+    "name": "Leonorapp",
+    "tags": [
+      "Web development",
+      "UX/UI",
+      "Research"
+    ],
+    "year": [
+      "2021",
+      " - ",
+      "2025"
+    ],
+    "tech": [
+      "React",
+      "SASS",
+      "Material UI",
+      "Node JS",
+      "Figma",
+      "Storybook"
+    ],
+    "template": "template3",
+    "description": "This research takes place around Leonora Carrington House Studio, the objective of this work was to create an experience design project for a museum focusing on the technological aspects as well as in the narrative and multimedia content.\n\n Our thesis project won an honorific mention at the National design contest 2021 \"Diseña México\" in the master's degree category. \n\n All the research process is documented in this thesis.",
+    "siteLink": "https://leonorapp-uam.web.app/",
+    "repo": "https://github.com/AmericaSanchezLeon/Leonorapp2.0",
+    "mainImage": "./src/assets/projects/1/project-image.jpg",
+    "mainImageAria": "Screenshots of webapp",
+    "embedded": [
+          {
+            "name": "Figma mockup",
+            "width": "100%",
+            "src": "https://embed.figma.com/design/46kjIEwKHgvjCRwilcjoy1/Leonorapp-2.0?node-id=249-1706&embed-host=share"
+          }
+        ],
+    "embedded2": [
+      {
+        "name": "Document visualizator",
+        "width": "100%",
+        "src": "https://www.yumpu.com/es/embed/view/lk8NIMaY2xPp7Hju"
+      }
+    ],
+    "section1": [
+      {
+        "index": "1",
+        "subtitle": "Emphatize",
+
+ "description": "In this stage of the research the most important part was to get familiar with the space, museums and to know who was the potencial user pain point, need and desires. In order to gather this information:  \n  \n · Visited 21 museums, and traveled to San Luis Potosí, Mexico City and Toluca, to visit them all: house studio museums, museums dedicated to Leonora Carrington and interactive museums. This roadmap helped the team to get familiar with the problem and served as empiric benchmark and identify solution, ideas and  pain points of these different museum types \n  \n  · Visitors studio:  One of the most relevant breakthroughs in this research is the definition of the target visitor of the museum . A study of the public was conducted in order to identify who will be the visitors and properly conceive the system from their needs, desires and experiences. Consisred of  exhaustive interviews. First, people with different profiles were contacted through digital announcements in different groups in the social network Facebook. Then by means of video calls the interviewees shared aspects of their daily life, their expectative of museums, their behaviour inside the museum and their familiarity with the art and life of Leonora Carrington. Their stories were analyzed by the methods and typologies mentioned in the methodology section. Three profiles were identified and they were used to build three potential visitors of the house studio. The target visitor for this project was chosen by means of an analysis in which they were classified according to their needs, expectations, technological profile and their prior knowledge about Leonora Carrington.",
+         "tech": [
+          "Google forms",
+          "Journey"
+        ],
+        "sitelink": "",
+
+        "image": "",
+        "imageAria": ""
+      }
+    ],
+    "section2": [
+      {
+        "subtitle": "Define",
+        "description": "The main focus of this research is to develop a proposal that accomplishes the requirements of the House Studio, as well as being accessible for implementation and suitable for visitors as an opportunity to see the inner world and the vision of an artist who always offers the pleasure of encountering the wonderful. \n \nWe created three user personas, that are related with the main museological profiles, being the “user at risk” the “butterfly user” who is more which is more likely to get lost at the museograph narrative, get bored or not being so familiar with technology. as their profile is spontaneous, playful, interactive, auditory, emotional, and dizzying. This profile main needs are: \n \n ·  Maintain curiosity \n ·  Encourage empathy \n ·  Introduce Leonora\n  \n. Even thoight the mainly focused persona is Sofia, the other personas were also taken into account and the system had to satisfy their needs as well \n  \n As result of this stage, we found out that the design solution combined beacons, Augmented Reality, progressive web applications, and a compelling narrative to offer visitors an immersive experience in the artist's quotidian life. So the web application would have to recreate digitally the museums, and the former pets of the artist would guide the whole experience as they were part of the life and history of the house studio. ",
+        "tech": [
+          "Miro"
+        ],
+        "sitelink": "",
+
+        "image": "",
+        "imageAria": "",
+        
+        "galleryView": [
+          {
+            "index": "1",
+            "galleryImgAria": "User personas",
+            "galleryImgSrc": "./src/assets/projects/1/define-1.png"
+          },
+          {
+            "index": "2",
+            "galleryImgAria": "Define stage findings",
+            "galleryImgSrc": "./src/assets/projects/1/define-2.png"
+          },
+          {
+            "index": "3",
+            "galleryImgAria": "Diagram of user needs",
+            "galleryImgSrc": "./src/assets/projects/1/define-3.png"
+          },
+          {
+            "index": "4",
+            "galleryImgAria": "Diagram of user needs",
+            "galleryImgSrc": "./src/assets/projects/1/define-4.png"
+          }
+        ]
+              }
+    ],
+    "section3": [
+      {
+        "subtitle": "Ideate",
+        "description": "The problem considered the intervention of design, communication and technology inside museums to benefit the visitor. In this stage the question was: “how to create a narrative for an interactive module that will be implemented in an author house museum?”.  \n The following findings stand out in the process: the discovery of new aspects in the quotidian life of Leonora Carrington, as well as its preservation and presentation. \n \n ·  Brainstorming sessions: we several methodologies, among which stands out “Lego serious play” to visualize and build up the experience and ideas. \n ·  Sitemap proposal and diagramas of workflows around the house and it’s rooms, which pets could be guiding the experience and how this experience would be \n ·  Sketching of possible dinamycs around selected technologies.  \n  \n There were several iterations of sketching, brainstorming mixed with testing and getting feedback from stakeholders. Until final idea was detailed and approved",
+        "sitelink": "",
+        "tech": [
+          "Miro",
+          "Lego serious play", 
+          "Procreate"
+        ],
+        "image": "",
+        "imageAria": "",
+        
+        "galleryView": [
+          {
+            "index": "1",
+            "galleryImgAria": "sketch from process",
+            "galleryImgSrc": "./src/assets/projects/1/ideate-1.png"
+          },
+          {
+            "index": "2",
+            "galleryImgAria": "sketch from process",
+            "galleryImgSrc": "./src/assets/projects/1/ideate-2.png"
+          }
+        ]
+       
+      }
+    ],
+    "section4": [
+      {
+        "subtitle": "Prototype",
+        "description": " For this project, three prototypes were created, the idea was to resembes digitally the artist's home.\n \n · The semi-functional low fidelity prototype in this project was to define the graphic style, flow, and information layout. \n \n · The third hight fidelity prototype (the one embedded at the beginning of this project), was build a few years later after the research was presented, it is the result of a second design iteration, after having obtained stakeholder, technological and visitors feedback after the evaluation tools (presented in next step) were implemented with potential users. \n  \nWith more knowledge and experience, decided to take all that feedback and resume the prototype from were it was left, but improving the UI part  and solving the issues found during the first iteration.\n \n Some of the new improvemenents made were:  \n · Creation and implementation of a proper design system and use of Storybook  \n · Use of an UI kit as Material Design, and implement it as well in the development \n · Fixed information architecture issues and re structured the screens and sections \n · Use of semantic components \n · Improved accesibility thought design and development  \n · Improved graphics  ",
+        "tech": [
+          "Miro",
+          "Marvel app",
+          "Figma"
+        ],
+        "galleryView": [
+          {
+            "index": "1",
+            "galleryImgAria": "low fidelity prototype",
+            "galleryImgSrc": "./src/assets/projects/1/prototype-1.png"
+          },
+          {
+            "index": "2",
+            "galleryImgAria": "High fidelity prototype",
+            "galleryImgSrc": "./src/assets/projects/1/prototype-2.png"
+          },
+          {
+            "index": "3",
+            "galleryImgAria": "Redesigned prototype",
+            "galleryImgSrc": "./src/assets/projects/1/prototype-3.png"
+          }
+        ]
+      }
+    ],
+    "section5": [
+      {
+        "subtitle": "Test",
+        "description": "For the evaluation of the web app, as mentioned before, this is a cross disciplinary implementation that requiered the creation of a framework for evaluatin the web app in a museum context. that includes theories from fields such as: Museographic Communication, Interactive Museography and User Experience Design. Some cualitative and cuantitative tools were created an implemented: \n  \n · SUS scale  \n · Evaluation Findings Diagram \n · Focus group \n · Usability Error Severity Diagram  \n · Interactive Museography Analysis Format \n · Interactive Module Analysis Format\n  \n  As result of the SUS scale Leonorapp obtained a score of 66.87.",
+        "image": "./src/assets/projects/1/test-1.jpg",
+        "imageAria": "Photo of focus group"
+      }
+    ]
+  },
+  {
+    "id": "2",
     "name": "Interactive infographic",
     "description": "This interactive infographic was made to share all the breakthoughts and achievements accomplished during the realization of the thesis “Alchemy, technology and quotidian life: Interactive museography for the Leonora Carrington House Studio” that was a extensive research of Leonora’s Carrington life beyond her artist facet.",
     "siteLink": "https://viaje-interdiscipinario-hacia-leonora-carrington.glitch.me/",
     "repo": "https://github.com/AmericaSanchezLeon/infografiaMADIC",
-    "tags": ["Web development"],
-    "tech": ["CSS", "HTML"],
+    "tags": [
+      "Web development"
+    ],
+    "tech": [
+      "CSS",
+      "HTML"
+    ],
     "mainImage": "../assets/projects/2/project-image.jpg",
-    "mainImageAria": "Landing page of interactive infographic", 
-    "year": "2022", 
+    "mainImageAria": "Landing page of interactive infographic",
+    "year": "2022",
     "template": "template1"
   },
   {
-    "id":"3",
+    "id": "3",
     "name": "Interactive painting",
-    "tags": ["Interactive programming"],
-    "tech": ["Arduino","P5","Open CV","AutoCAD"],
-    "year": "2019", 
+    "tags": [
+      "Interactive programming"
+    ],
+    "tech": [
+      "Arduino",
+      "P5",
+      "Open CV",
+      "AutoCAD"
+    ],
+    "year": "2019",
     "template": "template1",
     "repo": "https://github.com/AmericaSanchezLeon/InteractivePainting",
     "mainImage": "../assets/projects/3/project-image.jpg",
-    "mainImageAria":"Picture of the intervened painting",
+    "mainImageAria": "Picture of the intervened painting",
     "description": "In this project Leonora Carrington’s painting “Grandmother Moorhead’s aromatic kitchen” was was intervened to create a interactive physical painting.  \n  \n The painting elements were traced with Autocad and  cutted in 3mm MDF, the canvas was a box were on the inside all the mechanism, wires and gears were placed, and in the front, the paintin was sliced so the characters were in different planes. \n  \n Through image processing with OpenCV, the program identifies the color of some determinated elements related to kitchen an cooking, and when these elements are showed in the camera, the painting responds with some movement of the characters or the lighting of some elements. \n  \n  Using Processing and p5.js as mediator between OpenCV and Arduino, when a stablished color range signal was received, an action was sent to an Arduino uno board and this one triggered a led or servo, that was placed carefully to simulate the activy the character would be doing.",
-    "embedded":[
+    "embedded": [
       {
         "name": "Youtube video",
         "width": "100%",
-        "src":"https://www.youtube.com/embed/5d_RCvVTdkE?si=nV7ZkaLU3gxqsvo0"
-    }
-    ]  },
+        "src": "https://www.youtube.com/embed/5d_RCvVTdkE?si=nV7ZkaLU3gxqsvo0"
+      }
+    ]
+  },
   {
-    "id":"4",
+    "id": "4",
     "name": "Leonora Carrington House Signage",
-    "tags": ["Illustration"],
-    "tech": ["Illustrator"],
-    "year": "2021", 
+    "tags": [
+      "Illustration"
+    ],
+    "tech": [
+      "Illustrator"
+    ],
+    "year": "2021",
     "template": "template2",
     "description": "As a side project of the research masters degree project “Alchemy, technology and quotidian life: Interactive museography for the Leonora Carrington House Studio” , A co-worker and I were requested to create the signage for the aforementioned  house studio museum. \n  \n  The assigment consisted of, based on Leonora’s artwork create a signage system to be implemented in vinyl cutting in the museum doors.",
     "mainImage": "../assets/projects/4/project-image.jpg",
     "mainImageAria": "Picture of America posing with a door with her signage design",
     "galleryView": [
       {
-        "index":"1",
-        "galleryImgAria":"Picture of museum signage",
+        "index": "1",
+        "galleryImgAria": "Picture of museum signage",
         "galleryImgSrc": "../assets/projects/4/gallery/gallery-image1.jpg"
       },
       {
-        "index":"2",
-        "galleryImgAria":"Picture of museum signage",
+        "index": "2",
+        "galleryImgAria": "Picture of museum signage",
         "galleryImgSrc": "../assets/projects/4/gallery/gallery-image2.jpg"
       },
       {
-        "index":"3",
-        "galleryImgAria":"Picture of museum signage",
+        "index": "3",
+        "galleryImgAria": "Picture of museum signage",
         "galleryImgSrc": "../assets/projects/4/gallery/gallery-image3.jpg"
       },
       {
-        "index":"4",
-        "galleryImgAria":"Picture of museum signage",
+        "index": "4",
+        "galleryImgAria": "Picture of museum signage",
         "galleryImgSrc": "../assets/projects/4/gallery/gallery-image4.jpg"
       },
       {
-        "index":"5",
-        "galleryImgAria":"Picture of museum signage",
+        "index": "5",
+        "galleryImgAria": "Picture of museum signage",
         "galleryImgSrc": "../assets/projects/4/gallery/gallery-image5.jpg"
       },
       {
-        "index":"6",
-        "galleryImgAria":"Picture of museum signage",
+        "index": "6",
+        "galleryImgAria": "Picture of museum signage",
         "galleryImgSrc": "../assets/projects/4/gallery/gallery-image6.jpg"
       },
       {
-        "index":"7",
-        "galleryImgAria":"Picture of museum signage",
+        "index": "7",
+        "galleryImgAria": "Picture of museum signage",
         "galleryImgSrc": "../assets/projects/4/gallery/gallery-image7.jpg"
       }
     ]
   },
   {
-    "id":"5",
+    "id": "5",
     "name": "Dancing Bars",
-    "tags": ["Interactive programming"],
-    "tech": ["P5", "Processing"], 
-    "year": "2016", 
+    "tags": [
+      "Interactive programming"
+    ],
+    "tech": [
+      "P5",
+      "Processing"
+    ],
+    "year": "2016",
     "template": "template1",
     "repo": "https://github.com/AmericaSanchezLeon/dancingBarsInterface",
     "description": "This was one of my very fist experiments ever, it was my final project for a universitary course and the reason I felt in love with programming. \n  \n  It was made with P5.js in Processing and it consist of a dancing bar matrix that can be modified by the user through some controllers that manage the bar’s height, speed, color, direction and flow as well as the matriz size.",
     "mainImage": "../assets/projects/5/project-image.jpg",
     "mainImageAria": "Screenshow of a p5.js program that shows a color bar matrix"
-    
   },
   {
-    "id":"6",
+    "id": "6",
     "name": "The alchemyc kitchen",
-    "tags": ["Book", "Research", "Illustration"],
-    "tech": ["Procreate"], 
-    "year": "2021", 
+    "tags": [
+      "Book",
+      "Research",
+      "Illustration"
+    ],
+    "tech": [
+      "Procreate"
+    ],
+    "year": "2021",
     "template": "template2",
     "description": "I love doing research and sometimes, the unexpected comes along, in this case, while researching about Leonora Carrington’s life, diggin into books written by her and about her, interviewing her cousing and speacially her housekeeper, Yolanda Gudiño,  we discovered her magical link to food, cooking and the kitchen space itself. \n  \n We were able to gather some recipes she grew with, the ones that she cooked herself, her favorite dishes and the food she shared with her loved ones.\n  \n Working along professional chefs, and the director of the “Leonora Carrington’s House Studio” we recreate the recipes. \n \n The book illustrations were made by ouselfs, first experiment was attempting to look like scientific illustrations, but at the end a engraved style was made. \n  \n And from all that magic, this book was born.",
     "siteLink": "https://casadelibrosabiertos.uam.mx/gpd-cocina-alquimica-o-como-salvarse-de-la-hostilidad-del-conformismo-recetario-de-leonora-carrington-la.html",
     "mainImage": "../assets/projects/6/project-image.jpg",
-    "mainImageAria": "Cover of the book The alchemic kitchen", 
+    "mainImageAria": "Cover of the book The alchemic kitchen",
     "galleryView": [
       {
-        "index":"1",
-        "galleryImgAria":"Saffron scientific style illustration",
+        "index": "1",
+        "galleryImgAria": "Saffron scientific style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image1.jpg"
       },
       {
-        "index":"2",
-        "galleryImgAria":"Pear scientific style illustration",
+        "index": "2",
+        "galleryImgAria": "Pear scientific style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image2.jpg"
       },
       {
-        "index":"3",
-        "galleryImgAria":"Figs engraved style illustration",
+        "index": "3",
+        "galleryImgAria": "Figs engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image3.jpg"
       },
       {
-        "index":"4",
-        "galleryImgAria":"Basil engraved style illustration",
+        "index": "4",
+        "galleryImgAria": "Basil engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image4.jpg"
       },
       {
-        "index":"5",
-        "galleryImgAria":"Raspberries engraved style illustration",
+        "index": "5",
+        "galleryImgAria": "Raspberries engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image5.jpg"
       },
       {
-        "index":"6",
-        "galleryImgAria":"Saffron engraved style illustration",
+        "index": "6",
+        "galleryImgAria": "Saffron engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image6.jpg"
       },
       {
-        "index":"7",
-        "galleryImgAria":"Hazelnuts engraved style illustration",
+        "index": "7",
+        "galleryImgAria": "Hazelnuts engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image7.jpg"
       },
       {
-        "index":"8",
-        "galleryImgAria":"Cardamom engraved style illustration",
+        "index": "8",
+        "galleryImgAria": "Cardamom engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image8.jpg"
       },
       {
-        "index":"9",
-        "galleryImgAria":"Rosemary engraved style illustration",
+        "index": "9",
+        "galleryImgAria": "Rosemary engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image9.jpg"
       },
       {
-        "index":"10",
-        "galleryImgAria":"Pear engraved style illustration",
+        "index": "10",
+        "galleryImgAria": "Pear engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image10.jpg"
       },
       {
-        "index":"11",
-        "galleryImgAria":"Jasmine engraved style illustration",
+        "index": "11",
+        "galleryImgAria": "Jasmine engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image11.jpg"
       },
       {
-        "index":"12",
-        "galleryImgAria":"Mushrooms engraved style illustration",
+        "index": "12",
+        "galleryImgAria": "Mushrooms engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image12.jpg"
       },
       {
-        "index":"13",
-        "galleryImgAria":"Potato engraved style illustration",
+        "index": "13",
+        "galleryImgAria": "Potato engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image13.jpg"
       },
       {
-        "index":"14",
-        "galleryImgAria":"Porcini mushrooms engraved style illustration",
+        "index": "14",
+        "galleryImgAria": "Porcini mushrooms engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image14.jpg"
       },
       {
-        "index":"15",
-        "galleryImgAria":"Asparagus engraved style illustration",
+        "index": "15",
+        "galleryImgAria": "Asparagus engraved style illustration",
         "galleryImgSrc": "../assets/projects/6/gallery/gallery-image15.jpg"
       }
     ]
   },
   {
-    "id":"7",
+    "id": "7",
     "name": " Interactive Experience Book",
-    "tags": ["UX/UI","Research","Book"], 
-    "year": "2021", 
+    "tags": [
+      "UX/UI",
+      "Research",
+      "Book"
+    ],
+    "year": "2021",
     "template": "template1",
     "description": "Participated in this book within Chapter 3: Interactive experience, with the article \"Alchemy, technology, and quotidian life: Interactive museography for the Leonora Carrington House Studio\" which relates the research process of creating an interactive museography project for the museum. This project is featured in the book \"EXPERIENCE DESIGN Korea & Latin America Research Exchange\".",
     "siteLink": "https://play.google.com/books/reader?id=F3tREAAAQBAJ&pg=GBS.PA65&hl=es",
@@ -237,82 +381,99 @@
     "mainImageAria": "Cover of the book EXPERIENCE DESIGN Korea & Latin America Research Exchange"
   },
   {
-    "id":"8",
+    "id": "8",
     "name": "FILIJ Poster",
-    "tags": ["Illustration"],
-    "tech": ["PSD"], 
-    "year": "2018", 
+    "tags": [
+      "Illustration"
+    ],
+    "tech": [
+      "PSD"
+    ],
+    "year": "2018",
     "template": "template1",
     "description": "In 2019 participated in the XXXI National poster contest “Let’s invite to read” as part of the celebration of the International children's and juvenile book fair (FILIJ).  \n  \n  My artwork was in the selection to be exhibit during the book Fair.",
     "mainImage": "../assets/projects/8/project-image.jpg",
     "mainImageAria": "Poster with a kid and a cat reading a book"
   },
   {
-    "id":"9",
+    "id": "9",
     "name": "Poster contest To death with a smile",
-    "tags": ["Illustration"],
-    "tech": ["PSD"], 
-    "year": "2019", 
+    "tags": [
+      "Illustration"
+    ],
+    "tech": [
+      "PSD"
+    ],
+    "year": "2019",
     "template": "template1",
     "description": "Participated in the international poster contest “A la muerte con una sonrisa”, the objective of this contest is that international artists to share their vision of death. \n  \n  On 2018 my artwork, inspired on the traditional day of the dead altar and the visit of our beloved’s souls, was selected as finalist and  exhibit in Mexican Museum of Design (MUMEDI)",
     "mainImage": "../assets/projects/9/project-image.jpg",
     "mainImageAria": "Poster of the contest with a cat among candles"
   },
   {
-    "id":"10",
+    "id": "10",
     "name": "Anish Kapoor contest",
-    "tags": ["Illustration"],
-    "tech": ["Illustrator"], 
-    "year": "2016", 
+    "tags": [
+      "Illustration"
+    ],
+    "tech": [
+      "Illustrator"
+    ],
+    "year": "2016",
     "template": "template1",
     "description": "In 2016 the Universitary Museum of Contemporary Arts (MUAC) organized a contest for university students with the occasion of the exhibition of Anish Kapoor in the aforementioned museum.  \n  \n Participated in the contest and made it to the 10 finalist selection .",
     "mainImage": "../assets/projects/10/project-image.jpg",
     "mainImageAria": "Illustration of three circles coliding "
   },
   {
-    "id":"11",
+    "id": "11",
     "name": " MACSO",
-    "tags": ["UX/UI"],
-    "tech": ["Figma"], 
-    "year": "2021", 
+    "tags": [
+      "UX/UI"
+    ],
+    "tech": [
+      "Figma"
+    ],
+    "year": "2021",
     "template": "template1",
-    "description": "This project was a commission of the UAEMEX, an university in Mexico State. They wanted to improve their actual website of their Computational Sciences Degree. http://www.macscouaemex.mx/ \n \n Saddly, for budget and bureaucracy the redesign project didn’t procceed.But here is some of the process and insights:  \n   \n About information design: There is repeated information in different sections, broken links and unnecessary PDFs which could be replaced by content on the page. To simplify and improve the navigation was suggested to re structure the current information into new and more intuitive sections.\n   \nThe logo was not redesigned, but lines and color were improved for legibility. ",
-    "mainImage": "../assets/projects/11/project-image.jpg",
+    "description": "This project was a commission of the UAEMEX, an university in Mexico State. They wanted to improve their actual website of their Computational Sciences Degree. http://www.macscouaemex.mx/ \n \n This project consisted of research of the user, diagnostic of the current site and creation of design system. \n \n Some of the main breakthoughts of the diagnostic were that, beside the obvious lack of visual, heuristic and brand standards, the information architecture was the main issue of the website.\n \n · Information design: It was found that there is repeated information in different sections, broken links and unnecessary PDFs which could be replaced by content on the page. To simplify and improve the navigation was suggested to re structure the current information into new and more intuitive sections.\n \n · Branding: The logo was not redesigned, but lines and color were improved for legibility. \n \n The project only reached the stage of research and first proposal of the prototype, there were plans to redesign also the PDF files in the website, such as the extended version of the curriculum, so the structurem, editorial design and information displayed would be re structured to create documents more readable and easy to understand.  \n \n Saddly, for budget and bureaucracy the redesign project didn’t procceed.",
     "mainImageAria": "Screenshot of MACSO proposal langing page",
-    "embedded":[
+    "embedded": [
       {
         "name": "Figma mockup",
         "width": "100%",
-        "src":"https://embed.figma.com/design/f4tLPcbGMfQVgRD56PhN8s/P%C3%A1gina-Maestr%C3%ADa-Ciencias-Computaci%C3%B3n?node-id=0-1&embed-host=share"
-    }
+        "src": "https://embed.figma.com/design/f4tLPcbGMfQVgRD56PhN8s/P%C3%A1gina-Maestr%C3%ADa-Ciencias-Computaci%C3%B3n?node-id=0-1&embed-host=share"
+      }
     ]
   },
   {
-    "id":"12",
+    "id": "12",
     "name": " RADIOMED",
-    "tags": ["Web development", "UX/UI"],
-    "tech": ["Figma", "CSS", "HTML", "JAVA", "Javascript"], 
-    "year": "2021", 
+    "tags": [
+      "Web development",
+      "UX/UI"
+    ],
+    "tech": [
+      "Figma",
+      "CSS",
+      "HTML",
+      "JAVA",
+      "Javascript"
+    ],
+    "year": "2021",
     "template": "template1",
     "description": "This project was made during a JAVA bootcamp, to reinforce the backend stills. In this project my team created a web e-commerce application for a new company called Radiomed focused in selling medical radiologic supplies .\n  \n While the development was a team work, I personally worked the branding of the company and the Figma prototype. The Front end was developed with javascript, HTML, CSS & Bootstrap. And the Back end programmed with JAVA and Springboot framework. \n   \n All the design and development was tailored to client’s needs",
     "siteLink": "https://americasanchezleon.github.io/SeguridadRadiologica/",
-    "repo":"https://github.com/AmericaSanchezLeon/SeguridadRadiologica",
-    "repo2":"https://github.com/AmericaSanchezLeon/BackEndSeguridadRadiologica",
+    "repo": "https://github.com/AmericaSanchezLeon/SeguridadRadiologica",
+    "repo2": "https://github.com/AmericaSanchezLeon/BackEndSeguridadRadiologica",
     "mainImage": "../assets/projects/12/project-image.jpg",
     "mainImageAria": "Screenshot of radiomed landing page",
-    "embedded":[
+    "embedded": [
       {
         "name": "Figma mockup",
         "width": "100%",
-        "src":"https://embed.figma.com/design/ULzIvDS8R2J6Q5aSBzZd0L/wireframes-radiomed?node-id=0-1&embed-host=share"
-    }
+        "src": "https://embed.figma.com/design/ULzIvDS8R2J6Q5aSBzZd0L/wireframes-radiomed?node-id=0-1&embed-host=share"
+      }
     ]
   }
 ]
-  
-  
-  
-  
-  
-  
-  

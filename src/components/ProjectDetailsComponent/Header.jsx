@@ -11,7 +11,7 @@ export default function Header({ project, onClose }) {
       <h3>{project.name}</h3>
       <button onClick={handleClose} 
       className='btn-themed-icon'>
-      <i class="bi bi-x-lg"></i>
+      <i className="bi bi-x-lg"></i>
       </button> 
     </div>
     

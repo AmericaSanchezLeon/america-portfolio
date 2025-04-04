@@ -1,0 +1,27 @@
+section.template3{
+    white-space: pre-line;
+
+    h4{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .themedBadgeWrapper {
+        margin-right: 10px; /* Add space between badges */
+        display: inline-block; /* Make them display horizontally */
+        /* Add any other styles you want */
+      }
+      
+    .themedBadge{
+        background-color: $darker;
+        color: $lighter;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    img{
+        padding: 1rem;
+        width: -webkit-fill-available;        margin: auto;
+    }
+
+}

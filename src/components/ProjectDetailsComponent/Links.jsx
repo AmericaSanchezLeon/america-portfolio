@@ -6,7 +6,7 @@ return(
     <div className="projectDetails__links mt-4">
     {project.siteLink && (
       <div className='projectDetail__link'>
-        <i class="bi bi-link-45deg"></i>
+        <i className="bi bi-link-45deg"></i>
         <a className="px-2"
           href={project.siteLink}
           target="_blank" 
