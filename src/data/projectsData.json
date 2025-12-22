@@ -72,22 +72,22 @@
           {
             "index": "1",
             "galleryImgAria": "User personas",
-            "galleryImgSrc": "./src/assets/projects/1/define-1.png"
+            "galleryImgSrc": "../assets/projects/1/define-1.png"
           },
           {
             "index": "2",
             "galleryImgAria": "Define stage findings",
-            "galleryImgSrc": "./src/assets/projects/1/define-2.png"
+            "galleryImgSrc": "../assets/projects/1/define-2.png"
           },
           {
             "index": "3",
             "galleryImgAria": "Diagram of user needs",
-            "galleryImgSrc": "./src/assets/projects/1/define-3.png"
+            "galleryImgSrc": "../assets/projects/1/define-3.png"
           },
           {
             "index": "4",
             "galleryImgAria": "Diagram of user needs",
-            "galleryImgSrc": "./src/assets/projects/1/define-4.png"
+            "galleryImgSrc": "../assets/projects/1/define-4.png"
           }
         ]
               }
@@ -109,12 +109,12 @@
           {
             "index": "1",
             "galleryImgAria": "sketch from process",
-            "galleryImgSrc": "./src/assets/projects/1/ideate-1.png"
+            "galleryImgSrc": "../assets/projects/1/ideate-1.png"
           },
           {
             "index": "2",
             "galleryImgAria": "sketch from process",
-            "galleryImgSrc": "./src/assets/projects/1/ideate-2.png"
+            "galleryImgSrc": "../assets/projects/1/ideate-2.png"
           }
         ]
        
@@ -133,17 +133,17 @@
           {
             "index": "1",
             "galleryImgAria": "low fidelity prototype",
-            "galleryImgSrc": "./src/assets/projects/1/prototype-1.png"
+            "galleryImgSrc": "../assets/projects/1/prototype-1.png"
           },
           {
             "index": "2",
             "galleryImgAria": "High fidelity prototype",
-            "galleryImgSrc": "./src/assets/projects/1/prototype-2.png"
+            "galleryImgSrc": "../assets/projects/1/prototype-2.png"
           },
           {
             "index": "3",
             "galleryImgAria": "Redesigned prototype",
-            "galleryImgSrc": "./src/assets/projects/1/prototype-3.png"
+            "galleryImgSrc": "../assets/projects/1/prototype-3.png"
           }
         ]
       }
@@ -152,7 +152,7 @@
       {
         "subtitle": "Test",
         "description": "For the evaluation of the web app, as mentioned before, this is a cross disciplinary implementation that requiered the creation of a framework for evaluatin the web app in a museum context. that includes theories from fields such as: Museographic Communication, Interactive Museography and User Experience Design. Some cualitative and cuantitative tools were created an implemented: \n  \n · SUS scale  \n · Evaluation Findings Diagram \n · Focus group \n · Usability Error Severity Diagram  \n · Interactive Museography Analysis Format \n · Interactive Module Analysis Format\n  \n  As result of the SUS scale Leonorapp obtained a score of 66.87.",
-        "image": "./src/assets/projects/1/test-1.jpg",
+        "image": "../assets/projects/1/test-1.jpg",
         "imageAria": "Photo of focus group"
       }
     ]
@@ -161,7 +161,7 @@
     "id": "2",
     "name": "Interactive infographic",
     "description": "This interactive infographic was made to share all the breakthoughts and achievements accomplished during the realization of the thesis “Alchemy, technology and quotidian life: Interactive museography for the Leonora Carrington House Studio” that was a extensive research of Leonora’s Carrington life beyond her artist facet.",
-    "siteLink": "https://viaje-interdiscipinario-hacia-leonora-carrington.glitch.me/",
+    "siteLink": "https://leonorapp-infographic.web.app/",
     "repo": "https://github.com/AmericaSanchezLeon/infografiaMADIC",
     "tags": [
       "Web development"

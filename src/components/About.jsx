@@ -23,9 +23,9 @@ export default function About() {
     <header id="aboutme" className='about__container py-2'>
       <div className='about__wrapper row pt-5'>
         <div className='col-10 col-md-6'>
-          <h1 className='about__title' data-text="America Sanchez Leon" tabIndex="0">America Sanchez Leon</h1>
-          <h3  tabIndex="0">UX engineer | Product designer | UI developer</h3>
-          <p className='mt-3'>I’m an unicorn 🦄
+          <h1 className='about__title' data-text="America Sanchez" tabIndex="0">America Sanchez</h1>
+          <h3  tabIndex="0">UX engineer | Creative technologist | Unicorn</h3>
+          <p className='mt-3'>
             I have {uxExperience} years of experience in UX/UI, {webDevExperience} as UI developer and front end developer,
             and a whole background of {designExperience} years as integral designer.
             <br /><br />

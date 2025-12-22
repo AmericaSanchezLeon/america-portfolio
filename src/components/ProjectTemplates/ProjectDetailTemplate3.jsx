@@ -43,8 +43,10 @@ export default function ProjectDetailTemplate3({ project, onClose }) {
           />
         ))}
 
+    <div className='mt-1 mt-md-3 py-4'>
     <BadgesComponent project={project}/>
     <Links project={project}/>   
+    </div>
 
     <h3 className="mt-lg-5 mt-5">Design process</h3> 
     <Section1 project={project}/>

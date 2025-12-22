@@ -18,6 +18,10 @@ body.dark-mode {
   color: $lighter;
 }
 
+body.dark-mode a {
+  color: $lighter;
+}
+
 footer.dark-mode,
 nav.dark-mode {
   background-color: $dark;
