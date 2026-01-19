@@ -5,7 +5,8 @@
     "tags": [
       "Web development",
       "UX/UI",
-      "Research"
+      "Research",
+      "Visual Desgin"
     ],
     "year": [
       "2021",
@@ -25,7 +26,7 @@
     "siteLink": "https://leonorapp-uam.web.app/",
     "repo": "https://github.com/AmericaSanchezLeon/Leonorapp2.0",
     "mainImage": "./src/assets/projects/1/project-image.jpg",
-    "mainImageAria": "Screenshots of webapp",
+    "mainImageAria": "Leonorapp landing page",
     "embedded": [
           {
             "name": "Figma mockup",
@@ -164,7 +165,8 @@
     "siteLink": "https://leonorapp-infographic.web.app/",
     "repo": "https://github.com/AmericaSanchezLeon/infografiaMADIC",
     "tags": [
-      "Web development"
+      "Web development",
+      "Visual Desgin"
     ],
     "tech": [
       "CSS",
@@ -205,7 +207,8 @@
     "id": "4",
     "name": "Leonora Carrington House Signage",
     "tags": [
-      "Illustration"
+      "Illustration",
+      "Visual Desgin"
     ],
     "tech": [
       "Illustrator"
@@ -268,7 +271,7 @@
     "repo": "https://github.com/AmericaSanchezLeon/dancingBarsInterface",
     "description": "This was one of my very fist experiments ever, it was my final project for a universitary course and the reason I felt in love with programming. \n  \n  It was made with P5.js in Processing and it consist of a dancing bar matrix that can be modified by the user through some controllers that manage the bar’s height, speed, color, direction and flow as well as the matriz size.",
     "mainImage": "../assets/projects/5/project-image.jpg",
-    "mainImageAria": "Screenshow of a p5.js program that shows a color bar matrix"
+    "mainImageAria": "p5.js program that shows a color bar matrix"
   },
   {
     "id": "6",
@@ -276,7 +279,8 @@
     "tags": [
       "Book",
       "Research",
-      "Illustration"
+      "Illustration",
+      "Visual Desgin"
     ],
     "tech": [
       "Procreate"
@@ -371,7 +375,8 @@
     "tags": [
       "UX/UI",
       "Research",
-      "Book"
+      "Book",
+      "Visual Desgin"
     ],
     "year": "2021",
     "template": "template1",
@@ -437,7 +442,7 @@
     "year": "2021",
     "template": "template1",
     "description": "This project was a commission of the UAEMEX, an university in Mexico State. They wanted to improve their actual website of their Computational Sciences Degree. http://www.macscouaemex.mx/ \n \n This project consisted of research of the user, diagnostic of the current site and creation of design system. \n \n Some of the main breakthoughts of the diagnostic were that, beside the obvious lack of visual, heuristic and brand standards, the information architecture was the main issue of the website.\n \n · Information design: It was found that there is repeated information in different sections, broken links and unnecessary PDFs which could be replaced by content on the page. To simplify and improve the navigation was suggested to re structure the current information into new and more intuitive sections.\n \n · Branding: The logo was not redesigned, but lines and color were improved for legibility. \n \n The project only reached the stage of research and first proposal of the prototype, there were plans to redesign also the PDF files in the website, such as the extended version of the curriculum, so the structurem, editorial design and information displayed would be re structured to create documents more readable and easy to understand.  \n \n Saddly, for budget and bureaucracy the redesign project didn’t procceed.",
-    "mainImageAria": "Screenshot of MACSO proposal langing page",
+    "mainImageAria": "MACSO proposal langing page",
     "embedded": [
       {
         "name": "Figma mockup",
@@ -467,12 +472,55 @@
     "repo": "https://github.com/AmericaSanchezLeon/SeguridadRadiologica",
     "repo2": "https://github.com/AmericaSanchezLeon/BackEndSeguridadRadiologica",
     "mainImage": "../assets/projects/12/project-image.jpg",
-    "mainImageAria": "Screenshot of radiomed landing page",
+    "mainImageAria": "Radiomed landing page",
     "embedded": [
       {
         "name": "Figma mockup",
         "width": "100%",
         "src": "https://embed.figma.com/design/ULzIvDS8R2J6Q5aSBzZd0L/wireframes-radiomed?node-id=0-1&embed-host=share"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": " Codice Ordoñez",
+    "tags": [
+      "Book",
+      "Visual Desgin"
+    ],
+    "tech": [
+      "InDesign"
+    ],
+    "year": "2024",
+    "template": "template4",
+    "description": "Códice Ordoñes originates from a thesis completed in 1997 titled “Elementary Vocabulary in Certain Branches of the Ethnosciences of Nahuatl Culture,” which compiled vocabulary used during basic and intermediate Nahuatl Language and Literature courses taught between 1991 and 1993 by the College of Indigenous Languages and Literature of the Instituto Mexiquense de Cultura. \n \n In 2023, we were commissioned to re-edit this editorial work, renaming it Códice Ordoñes in honor of its author. \n The first edition was a rudimentary compendium, limited by the knowledge and technology of its time, consisting mainly of photocopies and worn, incomplete, or illegible illustrations. \n This new edition involved extensive research, reconstruction, and reinterpretation of illustrations, codices, and toponymies, as well as a complete redesign and editorial revision of the content. \n \n After a year and a half of work, the result is a book that goes beyond a dictionary — becoming a visual and historical bridge to Mexico’s cultural memory. \n \n In 2025, this project received an Honorable Mention at the Premio Mexicano del Diseño “Diseña México” in the Editorial Publication category and was selected as a finalist in the Illustration Collection category at the Diseña Awards.",
+    "mainImage": "../assets/projects/13/project-image.jpg",
+    "mainImageAria": "Codice Ordoñez book cover",
+    "galleryView": [
+      {
+        "index": "1",
+        "galleryImgAria": "Prize picture",
+        "galleryImgSrc": "../assets/projects/13/gallery/gallery-image1.png"
+      },
+      {
+        "index": "2",
+        "galleryImgAria": "Prize picture",
+        "galleryImgSrc": "../assets/projects/13/gallery/gallery-image2.png"
+      },
+      {
+        "index": "3",
+        "galleryImgAria": "Book pages",
+        "galleryImgSrc": "../assets/projects/13/gallery/gallery-image3.png"
+      },
+      {
+        "index": "4",
+        "galleryImgAria": "Book pages",
+        "galleryImgSrc": "../assets/projects/13/gallery/gallery-image4.png"
+      },
+      {
+        "index": "5",
+        "galleryImgAria": "Book pages",
+        "galleryImgSrc": "../assets/projects/13/gallery/gallery-image5.png"
       }
     ]
   }

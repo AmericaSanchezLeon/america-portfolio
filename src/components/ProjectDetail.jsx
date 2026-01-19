@@ -2,6 +2,7 @@ import projectsData from '../data/projectsData.json';
 import ProjectDetailTemplate1 from "./ProjectTemplates/ProjectDetailTemplate1"
 import ProjectDetailTemplate2 from "./ProjectTemplates/ProjectDetailTemplate2"
 import ProjectDetailTemplate3 from "./ProjectTemplates/ProjectDetailTemplate3"
+import ProjectDetailTemplate4 from "./ProjectTemplates/ProjectDetailTemplate4"
 import getRandomColor from '../hooks/getRandomColor';
 import Error from './Error';
 
@@ -14,6 +15,7 @@ export default function ProjectDetail({ projectId, onClose }) {
     template1: ProjectDetailTemplate1,
     template2: ProjectDetailTemplate2,
     template3: ProjectDetailTemplate3,
+    template4: ProjectDetailTemplate4,
   };
   const ProjectComponent = templateComponents[template] || (() => <Error/>);
 
